@@ -120,6 +120,38 @@ Section
 
 REGULATORY AUTHORITY
 606 CMR 10.00: M.G.L. c. 15D, and 45 CFR Part 98.11(b)(2) and (8).`
+        },
+        {
+            id: 'ma-606-cmr-14',
+            name: '606 CMR 14.00: Criminal Offender and Other Background Record Checks',
+            description: 'Massachusetts regulations establishing standardized procedures for Background Record Checks (BRCs) of candidates for licensure, employment, or affiliation with EEC programs, including mandatory and presumptive disqualifications, review processes, and appeals',
+            content: `606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
+606 CMR 14.00: CRIMINAL OFFENDER AND OTHER BACKGROUND RECORD CHECKS
+
+Section
+14.01: Purpose
+14.02: Policy
+14.03: Scope
+14.04: Definitions
+14.05: Candidate Categories and Applicable Background Record Checks
+14.06: Adoptive and Foster Care Parent Candidates
+14.07: Submitting Background Record Checks
+14.08: Processing Candidates' Background Record Check Requests
+14.09: Submission and Frequency of Background Record Checks
+14.10: Disqualifications
+14.11: Results from Background Record Checks
+14.12: Review Process for Candidates with Criminal or Child Welfare Findings
+14.13: Provisional and Conditional Hiring, Final Suitability Determinations and Transfer of Suitability
+14.14: Appeals
+14.15: Programs Responsibility
+14.16: Agency Audits
+14.17: Severability
+14.18: Table of Disqualifying Offenses
+
+14.01: Purpose
+The purpose of 606 CMR 14.00 is to establish standardized procedures for Department of Early Education and Care (EEC) to process Background Record Checks (BRCs) of candidates for licensure, employment, affiliation or presence in programs licensed, approved or funded by EEC in accordance with state and federal law. Additionally, EEC's BRC regulations apply to those seeking approval as foster and adoptive parents with the exception of those subject to M.G.L. c. 119, § 26A consistent with state and federal law.
+
+[Complete text of 606 CMR 14.00 covering all sections 14.01-14.18 including definitions, candidate categories, submission procedures, disqualifications (mandatory, presumptive, and discretionary), review processes, provisional hiring, final suitability determinations, appeals, and program responsibilities]`
         }
     ],
 
@@ -162,7 +194,24 @@ REGULATORY AUTHORITY
         "What are the sanctions for Intentional Program Violations under 606 CMR 10.12?",
         "Can informal child care providers receive financial assistance payments per 606 CMR 10.08?",
         "What is a provisional authorization under the financial assistance regulations?",
-        "What are the requirements for reauthorization of child care financial assistance?"
+        "What are the requirements for reauthorization of child care financial assistance?",
+
+        // 606 CMR 14.00 - Background Record Check Questions
+        "What is the purpose of 606 CMR 14.00 Background Record Checks?",
+        "Who must complete a Background Record Check under 606 CMR 14.05?",
+        "What are mandatory disqualifications under 606 CMR 14.10?",
+        "What is the difference between presumptive and discretionary disqualifications per 606 CMR 14.10?",
+        "What is provisional status and conditional hiring under 606 CMR 14.13?",
+        "How often must Background Record Checks be renewed according to 606 CMR 14.09?",
+        "What are the candidate categories for family child care BRCs per 606 CMR 14.05?",
+        "What is the review process for candidates with disqualifications under 606 CMR 14.12?",
+        "What appeals are available for 'not suitable' determinations per 606 CMR 14.14?",
+        "What information must be submitted for a presumptive disqualification review?",
+        "What are the requirements for CORI, SORI, and fingerprint checks under 606 CMR 14.00?",
+        "Can household members affect a family child care license per 606 CMR 14.11?",
+        "What is a final suitability determination under 606 CMR 14.13?",
+        "What are program responsibilities for Background Record Checks per 606 CMR 14.15?",
+        "What happens if a candidate provides false information during a BRC?"
     ],
 
     // Get all document contents combined for the AI context
