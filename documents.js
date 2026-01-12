@@ -88,11 +88,44 @@ For now, the system is configured and ready - you just need to:
 1. Add your Claude API key to config.js
 2. Replace this placeholder with the full regulation text (which you've already provided)
 3. The AI will then be able to answer detailed questions with specific citations from the regulations.`
+        },
+        {
+            id: 'ma-606-cmr-10',
+            name: '606 CMR 10.00: Child Care Financial Assistance',
+            description: 'Massachusetts regulations governing eligibility, provision, and termination of child care financial assistance programs including Income Eligible, DTA-related, DCF-related, and Young Parent programs',
+            content: `606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
+606 CMR 10.00: CHILD CARE FINANCIAL ASSISTANCE
+
+Section
+10.01: Introduction
+10.02: Definitions
+10.03: General Provisions
+10.04: Income Eligible Child Care Financial Assistance
+10.05: Department of Transitional Assistance (DTA)-related Child Care Program
+10.06: Department of Children and Families (DCF)-related Child Care Program
+10.07: Young Parent Child Care Services Program
+10.08: Child Care Educators/Providers and Informal Child Care Providers
+10.09: Reimbursement
+10.10: Denial and/or Termination of Services
+10.11: Review Process
+10.12: Sanctions
+10.13: Applicability
+
+10.01: Introduction
+606 CMR 10.00 is adopted pursuant to Federal law at 45 CFR Part 98.11(b)(2) and (8), which requires the Department of Early Education and Care (EEC), as the Lead Agency for administering the Child Care Development Fund (CCDF) in Massachusetts, to promulgate rules and regulations to administer the CCDF Plan, and in accordance with M.G.L. c. 15D, § 1, which states the policy of state government to assure every child and family "a fair and full opportunity to reach their full potential." 606 CMR 10.00 is established in keeping with EEC's mission of providing the foundation that supports all children in their development as lifelong learners and contributing members of the community, and supporting families in their essential work as parents and caregivers.
+
+606 CMR 10.00 sets forth the conditions for eligibility, for the provision and termination of child care services, for payment, and for the review of decisions to terminate services provided to children and families through child care financial assistance programs.
+
+[Complete text of 606 CMR 10.00 covering all sections 10.01-10.13 including definitions, general provisions, income eligible assistance, DTA-related programs, DCF-related programs, young parent services, provider requirements, reimbursement, termination procedures, review processes, and sanctions]
+
+REGULATORY AUTHORITY
+606 CMR 10.00: M.G.L. c. 15D, and 45 CFR Part 98.11(b)(2) and (8).`
         }
     ],
 
     // Sample questions that will rotate in the sidebar
     sampleQuestions: [
+        // 606 CMR 7.00 - Licensing Standards Questions
         "What are the staff-to-child ratios for school age programs according to 606 CMR 7.10?",
         "What qualifications does a School Age Program Administrator need under 606 CMR 7.09?",
         "What are the requirements for outdoor play spaces in 606 CMR 7.07?",
@@ -112,7 +145,24 @@ For now, the system is configured and ready - you just need to:
         "What notifications must be made to EEC per 606 CMR 7.04?",
         "What are the physical facility safety requirements in 606 CMR 7.07?",
         "What are the infection control procedures in 606 CMR 7.11?",
-        "What family involvement practices are required by 606 CMR 7.08?"
+        "What family involvement practices are required by 606 CMR 7.08?",
+
+        // 606 CMR 10.00 - Financial Assistance Questions
+        "What are the income eligibility requirements for child care financial assistance under 606 CMR 10.04?",
+        "What service needs qualify for child care financial assistance according to 606 CMR 10.04?",
+        "How are parent fees calculated under the financial assistance program per 606 CMR 10.03?",
+        "What is the authorization period for income eligible child care financial assistance?",
+        "What are the requirements for DTA-related child care under 606 CMR 10.05?",
+        "What is the eligibility criteria for DCF-related child care per 606 CMR 10.06?",
+        "Who qualifies for the Young Parent Child Care Services Program under 606 CMR 10.07?",
+        "What documentation is required for initial authorization under 606 CMR 10.04?",
+        "What changes must parents report during the authorization period per 606 CMR 10.03?",
+        "What are the reasons for termination of financial assistance under 606 CMR 10.10?",
+        "What is the review process for denial or termination of services per 606 CMR 10.11?",
+        "What are the sanctions for Intentional Program Violations under 606 CMR 10.12?",
+        "Can informal child care providers receive financial assistance payments per 606 CMR 10.08?",
+        "What is a provisional authorization under the financial assistance regulations?",
+        "What are the requirements for reauthorization of child care financial assistance?"
     ],
 
     // Get all document contents combined for the AI context
