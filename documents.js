@@ -152,6 +152,32 @@ Section
 The purpose of 606 CMR 14.00 is to establish standardized procedures for Department of Early Education and Care (EEC) to process Background Record Checks (BRCs) of candidates for licensure, employment, affiliation or presence in programs licensed, approved or funded by EEC in accordance with state and federal law. Additionally, EEC's BRC regulations apply to those seeking approval as foster and adoptive parents with the exception of those subject to M.G.L. c. 119, § 26A consistent with state and federal law.
 
 [Complete text of 606 CMR 14.00 covering all sections 14.01-14.18 including definitions, candidate categories, submission procedures, disqualifications (mandatory, presumptive, and discretionary), review processes, provisional hiring, final suitability determinations, appeals, and program responsibilities]`
+        },
+        {
+            id: 'ma-102-cmr-1',
+            name: '102 CMR 1.00: Enforcement Standards and Definitions for Licensure or Approval',
+            description: 'Massachusetts regulations establishing enforcement standards, compliance procedures, sanctions, fines, and appeal rights for programs licensed or approved by the Office of Child Care Services (now part of EEC)',
+            content: `102 CMR: OFFICE OF CHILD CARE SERVICES
+102 CMR 1.00: ENFORCEMENT STANDARDS AND DEFINITIONS FOR LICENSURE OR APPROVAL
+
+Section
+1.01: Introduction
+1.02: Definitions
+1.03: Licensure
+1.04: Effective Dates and Severance
+1.05: Disqualifying Background Information
+1.06: Right to Visit
+1.07: Enforcement and Compliance with Regulations
+1.08: Rights to Appeal
+1.09: Notifications
+
+1.01: Introduction
+102 CMR 1.00 is adopted in accordance with M.G.L. c. 28A which stresses the commitment of state government to assure every child a fair and full opportunity to reach his or her full potential. 102 CMR 1.00 includes definitions and requirements that apply to all programs that the Office licenses or approves and delineate the Office's authority to take legal action as a result of a program or facility's non-compliance with the appropriate regulations.
+
+[Complete text of 102 CMR 1.00 covering all sections 1.01-1.09 including definitions, licensure requirements, disqualifying background information, right to visit and inspect, enforcement actions, deficiency correction orders, sanctions and fines, probation/suspension/revocation procedures, appeal rights, and notification requirements]
+
+REGULATORY AUTHORITY
+102 CMR 1.00: M.G.L. c. 28A.`
         }
     ],
 
@@ -211,7 +237,24 @@ The purpose of 606 CMR 14.00 is to establish standardized procedures for Departm
         "Can household members affect a family child care license per 606 CMR 14.11?",
         "What is a final suitability determination under 606 CMR 14.13?",
         "What are program responsibilities for Background Record Checks per 606 CMR 14.15?",
-        "What happens if a candidate provides false information during a BRC?"
+        "What happens if a candidate provides false information during a BRC?",
+
+        // 102 CMR 1.00 - Enforcement Standards and Compliance Questions
+        "What is the purpose of 102 CMR 1.00 Enforcement Standards?",
+        "What is a Deficiency Correction Order under 102 CMR 1.07?",
+        "What violations can result in sanctions or fines per 102 CMR 1.07?",
+        "What are the grounds for license suspension under 102 CMR 1.07?",
+        "What are the grounds for license revocation according to 102 CMR 1.07?",
+        "What is the probation process for licensed programs per 102 CMR 1.07?",
+        "What appeal rights do licensees have under 102 CMR 1.08?",
+        "What is EEC's 'right to visit' authority according to 102 CMR 1.06?",
+        "What notification requirements must programs follow per 102 CMR 1.09?",
+        "What constitutes disqualifying background information under 102 CMR 1.05?",
+        "What are the effective dates and severance provisions in 102 CMR 1.04?",
+        "What enforcement actions can EEC take for non-compliance per 102 CMR 1.07?",
+        "How are fines calculated for regulatory violations under 102 CMR 1.07?",
+        "What is the timeline for correcting deficiencies under 102 CMR 1.07?",
+        "Can programs continue operating during the appeals process per 102 CMR 1.08?"
     ],
 
     // Get all document contents combined for the AI context
