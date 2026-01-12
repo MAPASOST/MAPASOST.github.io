@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA School Age Program Regulations Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Massachusetts School Age Program Regulations</h1>
+            <p class="subtitle">AI-Powered Regulation Guidance</p>
+        </header>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Sidebar: Sample Questions -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h2>Sample Questions</h2>
+                    <div id="sampleQuestions" class="sample-questions">
+                        <!-- Questions will be dynamically loaded -->
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h2>Available Documents</h2>
+                    <div id="documentList" class="document-list">
+                        <!-- Documents will be dynamically loaded -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Chat Area -->
+            <main class="chat-container">
+                <div id="chatMessages" class="chat-messages">
+                    <div class="welcome-message">
+                        <h2>Welcome!</h2>
+                        <p>Ask me anything about Massachusetts school age program regulations. I can help you understand specific requirements, compliance guidelines, and best practices.</p>
+                        <p class="info-note">💡 Try clicking on a sample question from the sidebar, or type your own question below.</p>
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <textarea
+                        id="userInput"
+                        placeholder="Ask a question about MA school age program regulations..."
+                        rows="3"
+                    ></textarea>
+                    <button id="sendButton" class="send-button">
+                        <span>Send</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="documents.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
