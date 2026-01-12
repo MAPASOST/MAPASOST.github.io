@@ -1,0 +1,5 @@
+# Configuration file with API key - DO NOT COMMIT
+config.js
+
+# Optional: Keep a template version
+# config.example.js can be committed as a template
