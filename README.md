@@ -20,27 +20,22 @@ A professional, AI-powered website that helps users navigate complex regulations
 
 Visit the website at: https://MAPASOST.github.io
 
-## Setup Instructions
+## 🚀 Quick Deployment
 
-### 1. Configure Your API Key
+This chatbot uses a **secure backend proxy** (Cloudflare Workers) to keep your API key safe.
 
-The chatbot requires a Claude API key from Anthropic:
+### Quick Start (5 minutes):
+See [QUICKSTART.md](QUICKSTART.md) for step-by-step instructions.
 
-1. Get an API key from [Anthropic Console](https://console.anthropic.com/)
-2. Copy `config.example.js` to `config.js`:
-   ```bash
-   cp config.example.js config.js
-   ```
-3. Open `config.js` in a text editor
-4. Replace `'your-api-key-here'` with your actual API key:
-   ```javascript
-   ANTHROPIC_API_KEY: 'sk-ant-api03-...'
-   ```
+### Detailed Instructions:
+See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment guide.
 
-**⚠️ Security Note:**
-- `config.js` is in `.gitignore` and will NOT be committed to the repository
-- This prevents accidentally exposing your API key in version control
-- For production use, consider setting up a backend service to handle API calls instead of exposing your API key in the frontend
+### Architecture:
+- **Frontend**: GitHub Pages (static hosting)
+- **Backend**: Cloudflare Workers (API proxy)
+- **AI**: Claude API by Anthropic
+
+Your API key is stored securely on Cloudflare Workers and never exposed to users.
 
 ### 2. Add Your Regulation Documents
 

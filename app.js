@@ -156,13 +156,11 @@ Now, please answer the following question based ONLY on the information in these
 
 Question: ${userMessage}`;
 
-        // Make API call to Claude
-        const response = await fetch(CONFIG.API_ENDPOINT, {
+        // Make API call to backend worker (which securely handles the Claude API key)
+        const response = await fetch(CONFIG.WORKER_ENDPOINT, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
-                'x-api-key': CONFIG.ANTHROPIC_API_KEY,
-                'anthropic-version': '2023-06-01'
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 model: CONFIG.CLAUDE_MODEL,
