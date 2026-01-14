@@ -4492,6 +4492,77 @@ ${doc.content}
         }).join('\n\n');
     },
 
+    // Get relevant documents based on the question (smart filtering to reduce token usage)
+    getRelevantDocumentContent(question) {
+        const questionLower = question.toLowerCase();
+        const relevantDocs = [];
+
+        // Keywords/phrases that map to specific documents
+        const documentKeywords = {
+            'ma-606-cmr-7': [
+                '606 cmr 7', 'cmr 7.', 'licensure', 'license', 'family child care',
+                'small group', 'large group', 'program standards'
+            ],
+            'ma-606-cmr-10': [
+                '606 cmr 10', 'cmr 10.', 'background record check', 'brc',
+                'criminal history', 'fingerprint', 'suitability determination',
+                'disqualifying information'
+            ],
+            'ma-606-cmr-14': [
+                '606 cmr 14', 'cmr 14.', 'financial assistance', 'subsidy',
+                'subsidies', 'income eligible', 'voucher', 'state median income',
+                'smi', 'fee', 'copayment', 'co-payment'
+            ],
+            'ma-102-cmr-1': [
+                '102 cmr 1', 'cmr 1.', 'reporting requirements', 'provider reporting',
+                'child information', 'data collection', 'attendance reporting'
+            ]
+        };
+
+        // Check which documents match the question
+        for (const [docId, keywords] of Object.entries(documentKeywords)) {
+            const hasMatch = keywords.some(keyword => questionLower.includes(keyword));
+            if (hasMatch) {
+                const doc = this.documents.find(d => d.id === docId);
+                if (doc) {
+                    relevantDocs.push(doc);
+                }
+            }
+        }
+
+        // If no specific matches, use a smart default based on common topics
+        if (relevantDocs.length === 0) {
+            // Common topics that are primarily in 606 CMR 7
+            const cmr7Topics = [
+                'staff', 'ratio', 'educator', 'qualification', 'supervision',
+                'health', 'safety', 'nutrition', 'curriculum', 'facility',
+                'transportation', 'age', 'program administrator', 'director',
+                'training', 'professional development', 'group size'
+            ];
+
+            const isCmr7Topic = cmr7Topics.some(topic => questionLower.includes(topic));
+
+            if (isCmr7Topic) {
+                // Send only 606 CMR 7 (the main standards document)
+                relevantDocs.push(this.documents.find(d => d.id === 'ma-606-cmr-7'));
+            } else {
+                // For general questions, send the two most commonly referenced documents
+                relevantDocs.push(this.documents.find(d => d.id === 'ma-606-cmr-7'));
+                relevantDocs.push(this.documents.find(d => d.id === 'ma-606-cmr-10'));
+            }
+        }
+
+        // Format and return the relevant documents
+        return relevantDocs.map(doc => {
+            return `=== DOCUMENT: ${doc.name} ===
+Description: ${doc.description}
+
+${doc.content}
+
+=== END OF DOCUMENT: ${doc.name} ===`;
+        }).join('\n\n');
+    },
+
     // Get a random subset of sample questions
     getRandomQuestions(count = 5) {
         const shuffled = [...this.sampleQuestions].sort(() => 0.5 - Math.random());
