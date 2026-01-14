@@ -4,6 +4,3 @@ compatibility_date = "2024-01-01"
 
 # This will be deployed as a Cloudflare Worker
 # Your API key will be stored as a secret (not in this file)
-
-[env.production]
-name = "ma-regulations-chatbot-api"
