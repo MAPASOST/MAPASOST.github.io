@@ -4498,24 +4498,49 @@ ${doc.content}
         const content = doc.content;
 
         // Regex to match section headers like "7.01:", "10.03:", "14.05:", "1.02:"
+        // Must be at start of line (after newline) to avoid matching inline references
         const sectionRegex = /\n(\d+\.\d+):\s*([^\n]+)/g;
 
         let matches = [...content.matchAll(sectionRegex)];
 
+        // Skip the table of contents - find where actual content starts
+        // TOC has section numbers in rapid succession with no content between them
+        // Actual content has substantial text between section headers
+        const seenSections = new Set();
+        let contentStartIndex = -1;
+
         for (let i = 0; i < matches.length; i++) {
-            const match = matches[i];
+            const sectionNum = matches[i][1];
+
+            // If we've seen this section number before, that's where actual content starts
+            if (seenSections.has(sectionNum) && contentStartIndex === -1) {
+                contentStartIndex = i;
+                break;
+            }
+            seenSections.add(sectionNum);
+        }
+
+        // If we found a TOC, skip those matches, otherwise use all matches
+        const contentMatches = contentStartIndex > 0 ? matches.slice(contentStartIndex) : matches;
+
+        // Now extract the actual sections with their content
+        for (let i = 0; i < contentMatches.length; i++) {
+            const match = contentMatches[i];
             const sectionNumber = match[1];
-            const sectionTitle = match[2];
+            const sectionTitle = match[2].trim();
             const startIndex = match.index;
-            const endIndex = i < matches.length - 1 ? matches[i + 1].index : content.length;
+            const endIndex = i < contentMatches.length - 1 ? contentMatches[i + 1].index : content.length;
             const sectionContent = content.substring(startIndex, endIndex).trim();
 
-            sections.push({
-                number: sectionNumber,
-                title: sectionTitle,
-                content: sectionContent,
-                fullName: `${sectionNumber}: ${sectionTitle}`
-            });
+            // Only include sections that have substantial content (more than just the header)
+            if (sectionContent.length > 100) {
+                sections.push({
+                    number: sectionNumber,
+                    title: sectionTitle,
+                    content: sectionContent,
+                    fullName: `${sectionNumber}: ${sectionTitle}`
+                });
+            }
         }
 
         return sections;
