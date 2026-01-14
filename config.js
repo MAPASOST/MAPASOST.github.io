@@ -9,7 +9,7 @@ const CONFIG = {
     WORKER_ENDPOINT: 'https://bitter-grass-e82f.map-asost.workers.dev', // Cloudflare Worker endpoint
 
     // Claude API Configuration (for reference only - key is now on the server)
-    CLAUDE_MODEL: 'claude-3-5-sonnet-20241022',
+    CLAUDE_MODEL: 'claude-sonnet-4-5-20250929',
     API_ENDPOINT: 'https://api.anthropic.com/v1/messages', // Not used when using worker
 
     // Application Settings
