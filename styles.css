@@ -1,4 +1,4 @@
-/* Modern Styles with Contemporary Design */
+/* Modern Light Theme - Professional & Clean */
 * {
     margin: 0;
     padding: 0;
@@ -6,38 +6,39 @@
 }
 
 :root {
-    /* Modern Color Palette */
-    --primary: #6366f1;
-    --primary-dark: #4f46e5;
-    --primary-light: #818cf8;
-    --secondary: #8b5cf6;
-    --accent: #ec4899;
-    --success: #10b981;
-    --background: #0f172a;
-    --surface: #1e293b;
-    --surface-light: #334155;
-    --text-primary: #f1f5f9;
-    --text-secondary: #cbd5e1;
-    --text-muted: #94a3b8;
-    --border: #334155;
+    /* Light Color Palette */
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --primary-light: #3b82f6;
+    --secondary: #7c3aed;
+    --accent: #0891b2;
+    --success: #059669;
+    --background: #f8fafc;
+    --surface: #ffffff;
+    --surface-hover: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+    --border-light: #f1f5f9;
 
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.5);
-    --shadow-xl: 0 20px 50px -12px rgba(0, 0, 0, 0.6);
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
     /* Border Radius */
-    --radius-sm: 0.5rem;
-    --radius: 0.75rem;
-    --radius-lg: 1rem;
-    --radius-xl: 1.5rem;
+    --radius-sm: 0.375rem;
+    --radius: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
 }
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
-    background-attachment: fixed;
+    background: var(--background);
     color: var(--text-primary);
     line-height: 1.6;
     min-height: 100vh;
@@ -55,21 +56,8 @@ header {
     padding: 2.5rem 3rem;
     border-radius: var(--radius-xl);
     margin-bottom: 2rem;
-    box-shadow: var(--shadow-xl);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    position: relative;
-    overflow: hidden;
-}
-
-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.1), transparent 50%);
-    pointer-events: none;
+    box-shadow: var(--shadow-lg);
+    color: white;
 }
 
 header h1 {
@@ -77,14 +65,12 @@ header h1 {
     margin-bottom: 0.5rem;
     font-weight: 700;
     letter-spacing: -0.025em;
-    position: relative;
 }
 
 header .subtitle {
     font-size: 1.125rem;
     opacity: 0.95;
     font-weight: 400;
-    position: relative;
 }
 
 /* Main Content Layout */
@@ -95,7 +81,7 @@ header .subtitle {
     align-items: start;
 }
 
-/* Modern Sidebar with Glassmorphism */
+/* Sidebar */
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -105,35 +91,29 @@ header .subtitle {
 }
 
 .sidebar-section {
-    background: rgba(30, 41, 59, 0.8);
-    backdrop-filter: blur(12px);
+    background: var(--surface);
     padding: 1.75rem;
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-lg);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border);
     transition: all 0.3s ease;
 }
 
 .sidebar-section:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-xl);
-    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: var(--shadow-lg);
 }
 
 .sidebar-section h2 {
     font-size: 1.125rem;
-    background: linear-gradient(135deg, var(--primary-light), var(--secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
     margin-bottom: 1.25rem;
     padding-bottom: 0.75rem;
-    border-bottom: 2px solid var(--border);
+    border-bottom: 2px solid var(--border-light);
     font-weight: 700;
     letter-spacing: -0.015em;
 }
 
-/* Modern Sample Questions */
+/* Sample Questions */
 .sample-questions {
     display: flex;
     flex-direction: column;
@@ -142,15 +122,14 @@ header .subtitle {
 
 .sample-question {
     padding: 1rem 1.25rem;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+    background: var(--surface-hover);
     border-radius: var(--radius);
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid rgba(99, 102, 241, 0.2);
+    transition: all 0.2s ease;
+    border: 1px solid var(--border);
     font-size: 0.9375rem;
     color: var(--text-secondary);
     position: relative;
-    overflow: hidden;
 }
 
 .sample-question::before {
@@ -160,25 +139,26 @@ header .subtitle {
     top: 50%;
     transform: translateY(-50%) translateX(-10px);
     opacity: 0;
-    transition: all 0.3s ease;
-    color: var(--primary-light);
+    transition: all 0.2s ease;
+    color: var(--primary);
     font-size: 1.25rem;
 }
 
 .sample-question:hover {
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2));
-    color: var(--text-primary);
+    background: var(--primary);
+    color: white;
     transform: translateX(4px);
-    border-color: var(--primary-light);
-    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
 }
 
 .sample-question:hover::before {
     opacity: 1;
     transform: translateY(-50%) translateX(0);
+    color: white;
 }
 
-/* Document List with Modern Cards */
+/* Document List */
 .document-list {
     display: flex;
     flex-direction: column;
@@ -187,11 +167,11 @@ header .subtitle {
 
 .document-item {
     padding: 1.25rem;
-    background: linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(99, 102, 241, 0.05));
+    background: var(--surface-hover);
     border-radius: var(--radius);
     font-size: 0.875rem;
     border-left: 3px solid var(--primary);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     position: relative;
 }
 
@@ -201,18 +181,19 @@ header .subtitle {
     top: 1.25rem;
     right: 1.25rem;
     font-size: 1.25rem;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .document-item:hover {
-    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(99, 102, 241, 0.1));
+    background: white;
     border-left-color: var(--success);
     transform: translateX(4px);
+    box-shadow: var(--shadow);
 }
 
 .document-item strong {
     display: block;
-    color: var(--primary-light);
+    color: var(--primary);
     margin-bottom: 0.5rem;
     font-size: 1rem;
     font-weight: 600;
@@ -223,13 +204,12 @@ header .subtitle {
     line-height: 1.5;
 }
 
-/* Modern Chat Container */
+/* Chat Container */
 .chat-container {
-    background: rgba(30, 41, 59, 0.8);
-    backdrop-filter: blur(12px);
+    background: var(--surface);
     border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-xl);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
     display: flex;
     flex-direction: column;
     height: calc(100vh - 250px);
@@ -245,20 +225,17 @@ header .subtitle {
     gap: 1.5rem;
 }
 
-/* Welcome Message with Modern Style */
+/* Welcome Message */
 .welcome-message {
     text-align: center;
     padding: 3rem 2rem;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(139, 92, 246, 0.05));
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.05), rgba(124, 58, 237, 0.05));
     border-radius: var(--radius-lg);
-    border: 1px dashed rgba(99, 102, 241, 0.3);
+    border: 2px dashed var(--border);
 }
 
 .welcome-message h2 {
-    background: linear-gradient(135deg, var(--primary-light), var(--secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
     margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: 700;
@@ -274,7 +251,7 @@ header .subtitle {
 }
 
 .info-note {
-    background: rgba(99, 102, 241, 0.1);
+    background: rgba(37, 99, 235, 0.08);
     padding: 1.25rem;
     border-radius: var(--radius);
     margin-top: 1.5rem;
@@ -282,18 +259,18 @@ header .subtitle {
     color: var(--text-secondary);
 }
 
-/* Modern Message Bubbles */
+/* Message Bubbles */
 .message {
     display: flex;
     flex-direction: column;
     max-width: 75%;
-    animation: slideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: slideIn 0.3s ease;
 }
 
 @keyframes slideIn {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(10px);
     }
     to {
         opacity: 1;
@@ -333,32 +310,29 @@ header .subtitle {
     background: linear-gradient(135deg, var(--primary), var(--primary-dark));
     color: white;
     border-bottom-right-radius: 0.25rem;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-md);
 }
 
 .message.assistant .message-content {
-    background: rgba(51, 65, 85, 0.6);
+    background: var(--surface-hover);
     color: var(--text-primary);
     border-bottom-left-radius: 0.25rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border);
 }
 
 /* Citations */
 .citations {
     margin-top: 1rem;
     padding: 1rem;
-    background: rgba(99, 102, 241, 0.05);
+    background: rgba(37, 99, 235, 0.05);
     border-radius: var(--radius);
-    border: 1px solid rgba(99, 102, 241, 0.2);
+    border: 1px solid var(--border);
     font-size: 0.875rem;
 }
 
 .citations-title {
     font-weight: 600;
-    background: linear-gradient(135deg, var(--primary-light), var(--secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
     margin-bottom: 0.75rem;
     display: flex;
     align-items: center;
@@ -372,7 +346,7 @@ header .subtitle {
 
 .citation {
     padding: 0.75rem;
-    background: rgba(30, 41, 59, 0.5);
+    background: white;
     border-radius: var(--radius-sm);
     margin-top: 0.5rem;
     border-left: 3px solid var(--primary);
@@ -380,7 +354,7 @@ header .subtitle {
 
 .citation-source {
     font-weight: 600;
-    color: var(--primary-light);
+    color: var(--primary);
     font-size: 0.8125rem;
 }
 
@@ -391,15 +365,15 @@ header .subtitle {
     font-style: italic;
 }
 
-/* Modern Loading Animation */
+/* Loading Animation */
 .loading {
     display: flex;
     align-items: center;
     gap: 0.75rem;
     padding: 1.25rem 1.5rem;
-    background: rgba(51, 65, 85, 0.6);
+    background: var(--surface-hover);
     border-radius: var(--radius-lg);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border);
     width: fit-content;
 }
 
@@ -411,7 +385,7 @@ header .subtitle {
 .loading-dot {
     width: 0.625rem;
     height: 0.625rem;
-    background: var(--primary-light);
+    background: var(--primary);
     border-radius: 50%;
     animation: pulse 1.4s infinite ease-in-out both;
 }
@@ -435,26 +409,26 @@ header .subtitle {
     }
 }
 
-/* Modern Chat Input */
+/* Chat Input */
 .chat-input-container {
     padding: 1.5rem;
     border-top: 1px solid var(--border);
     display: flex;
     gap: 1rem;
     align-items: flex-end;
-    background: rgba(15, 23, 42, 0.5);
+    background: var(--surface-hover);
 }
 
 #userInput {
     flex: 1;
     padding: 1rem 1.25rem;
-    background: rgba(51, 65, 85, 0.5);
+    background: white;
     border: 2px solid var(--border);
     border-radius: var(--radius);
     font-size: 1rem;
     font-family: inherit;
     resize: none;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     color: var(--text-primary);
 }
 
@@ -465,8 +439,7 @@ header .subtitle {
 #userInput:focus {
     outline: none;
     border-color: var(--primary);
-    background: rgba(51, 65, 85, 0.8);
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
 .send-button {
@@ -481,7 +454,7 @@ header .subtitle {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     box-shadow: var(--shadow);
 }
 
@@ -496,7 +469,7 @@ header .subtitle {
 }
 
 .send-button:disabled {
-    background: linear-gradient(135deg, var(--surface-light), var(--surface-light));
+    background: var(--text-muted);
     cursor: not-allowed;
     transform: none;
     opacity: 0.5;
@@ -506,7 +479,7 @@ header .subtitle {
 .error-message {
     background: rgba(239, 68, 68, 0.1);
     border: 1px solid rgba(239, 68, 68, 0.3);
-    color: #fca5a5;
+    color: #dc2626;
     padding: 1rem;
     border-radius: var(--radius);
     margin-top: 1rem;
@@ -519,18 +492,18 @@ header .subtitle {
 }
 
 .chat-messages::-webkit-scrollbar-track {
-    background: rgba(15, 23, 42, 0.5);
+    background: var(--background);
     border-radius: var(--radius-sm);
 }
 
 .chat-messages::-webkit-scrollbar-thumb {
-    background: var(--surface-light);
+    background: var(--border);
     border-radius: var(--radius-sm);
-    border: 2px solid rgba(15, 23, 42, 0.5);
+    border: 2px solid var(--background);
 }
 
 .chat-messages::-webkit-scrollbar-thumb:hover {
-    background: var(--border);
+    background: var(--text-muted);
 }
 
 /* Responsive Design */
@@ -589,11 +562,4 @@ header .subtitle {
     .sidebar-section {
         padding: 1.25rem;
     }
-}
-
-/* Add smooth transitions to all interactive elements */
-* {
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
 }

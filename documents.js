@@ -46,11 +46,11 @@ systems of licensing and program quality, put children and families first, and b
 accountable. Further, EEC has sought to establish standards that support high quality early
 education and care programs that reflect the diversity of the Commonwealth; strengthen families;
 and help children learn and grow physically, socially, emotionally, and educationally.
-Unless specifically noted in 606 CMR 7.00, all requirements in 606 CMR 7.00 apply to all
+Unless specifically noted, all requirements apply to all
 programs providing non-residential services to children younger than 14 years old outside their
 own homes, regardless of the care setting or the age of the children served.
 7.02: Definitions
-As used in 606 CMR 7.00, the following words shall have the following meaning unless the
+As used, the following words shall have the following meaning unless the
 context otherwise requires:
 Applicant - The individual who has been designated as the person responsible for the
 administration of the program or facility and is the duly authorized agent of the person applying
@@ -86,7 +86,7 @@ or permanent disabilities arising from intellectual, sensory, emotional, physica
 factors, or other specific learning disabilities, are or would be unable to progress effectively in
 a regular school program. This may include, but not be limited to, a school age child with
 disabilities as determined by an evaluation conducted pursuant to M.G.L. c. 71B, § 3, and as
-defined by the Department of Education in 603 CMR 28.00, or an infant or toddler with an
+defined by the Department of Education, or an infant or toddler with an
 individual family service plan (IFSP) receiving early intervention services.
 Continuing Education Unit (CEU) - A nationally recognized method for recognizing
 participation in professional development and training activities. One CEU is granted for each
@@ -95,7 +95,7 @@ Department.
 Curriculum - The topics within the areas of English language arts, mathematics, science and
 technology/engineering, history and social science, comprehensive health, and the arts that will
 be addressed through planned and unplanned program activities.
-Day - Shall mean calendar days unless otherwise specified in 606 CMR 7.00.
+Day - Shall mean calendar days unless otherwise specified.
 DEP - Department of Environmental Protection.
 Department - When used alone shall mean the Department of Early Education and Care.
 Diverse Learners - Children who have special physical, emotional, behavioral, cognitive or
@@ -156,7 +156,7 @@ or without compensation therefore.
 606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
 7.02: continued
 Licensed Capacity - Determination by the Department of the number of children that a program
-can care for at any one time under 606 CMR 7.00.
+can care for at any one time.
 Licensee - Any person holding a license or approval issued by the Department.
 Medical Emergency - An unforeseen event that results in the family child care educator, a child
 in care, spouse, parent, or household member of the family child care educator needing
@@ -290,7 +290,7 @@ experimental basis for a specified period not to exceed the term of the license.
 Department receives or finds evidence that the conditions of the approval have been violated,
 the project will be terminated.
 (b) Standard Variances. The Department may, upon written request, grant a variance of any
-provision contained in 606 CMR 7.04 through 7.13 and allow an alternative method for
+provision contained through 7.13 and allow an alternative method for
 compliance with such regulation if the applicant for the variance provides clear and
 convincing evidence, including, at the request of the Department, expert opinion which
 demonstrates to the satisfaction of the Department that the applicant’s alternative method
@@ -314,7 +314,7 @@ such emergencies and their aftermath.
 (a) Documents Required for Licensure. In addition to the documents required for licensure
 specified at 606 CMR 7.03(1)(c), the Licensee must submit:
 1. copies of the lead paint disclosure statement required by 606 CMR 7.07(15)(a)2;
-2. certification of current training in CPR and first aid, per 606 CMR 7.09(15)(e);
+2. certification of current training in CPR and first aid,(15)(e);
 3. health records, as evidence of compliance with 606 CMR 7.09(11).
 (b) Duration of a License. A regular license or approval is valid for three years from the
 date of issuance unless revoked, suspended, or made probationary.
@@ -445,7 +445,7 @@ departure times;
 2. a method of knowing exactly who is present on the premises at any given point in the
 day.
 3. documentation of regular evacuation drills, as required by 606 CMR 7.11(7)(h).
-(b) Except as specifically provided elsewhere in 606 CMR 7.00, all records required by
+(b) Except as specifically provided elsewhere, all records required by
 606 CMR 7.00 must be:
 1. legible and dated and signed by the individual making the entry;
 2. updated at least annually and whenever any material changes occur.
@@ -457,7 +457,7 @@ must provide a copy of the child’s records to the parent(s) or any other perso
 identifies.
 (5) Staff Records. The licensee must maintain a personnel record for each staff member. The
 record must include:
-(a) documentation that the employee has the qualifications required under 606 CMR 7.09
+(a) documentation that the employee has the qualifications required
 including, but not limited to, health records, as required by 606 CMR 7.09(11);
 (b) copies of licenses, certifications and registrations held, including, but not limited to,
 motor vehicle operator’s license (if the staff member transports children) and EEC educator
@@ -530,7 +530,7 @@ regardless of risk, must be screened for lead poisoning at least once between th
 of nine and 12 months and annually thereafter at ages two and three. Children must
 also be screened at age four if they live in a community deemed at high risk for lead
 poisoning by the Department of Public Health. All providers must comply with the
-criteria for lead poisoning screening as set forth in 105 CMR 460.050.
+criteria for lead poisoning screening as set forth.
 14. as appropriate to the child’s age and abilities:
 a. information about the child’s daily schedule, developmental history, sleeping and
 play habits, favorite toys, accustomed mode of reassurance and comfort;
@@ -575,7 +575,7 @@ procedure is contraindicated.
 school; or
 2. copies of the child’s immunization, physical examination and lead screening records.
 (9) Updating Records. Children’s records must be reviewed and updated as necessary, but no
-less frequently than once per year. A written consent provided under 606 CMR 7.04(7)(a)3.
+less frequently than once per year. A written consent provided(7)(a)3.
 through 12. shall be valid for one year from the date of its execution unless such consent is
 withdrawn, in writing, prior to that time.
 (10) Amending the Child’s Record.
@@ -702,7 +702,7 @@ initiation of any legal proceedings brought against the program or any person em
 by the program if such proceeding arises out of circumstances related to the care of
 children in the program or may impact the continued operation of the program.
 2. In family child care, the licensee must notify the Department in writing within five
-days of the initiation of the legal proceedings listed in 606 CMR 7.04(15)(d)2.a. through
+days of the initiation of the legal proceedings listed(15)(d)2.a. through
 c. which are brought against any educator, household member of the licensee or person
 regularly on the premises of the family child care home:
 a. any criminal or delinquency complaint listed in the Department’s Background
@@ -1497,9 +1497,9 @@ families in writing prior to enrollment of their child:
 while their child is present; and that input from and communication with parents is
 encouraged;
 (b) the frequency of children’s progress reports;
-(c) the program’s policy regarding administration of medication as in 606 CMR 7.11(2)(a);
-(d) the procedures for meeting potential emergencies, as in 606 CMR 7.11(7)(f);
-(e) the transportation plan, as in 606 CMR 7.13(1);
+(c) the program’s policy regarding administration of medication as(2)(a);
+(d) the procedures for meeting potential emergencies, as(7)(f);
+(e) the transportation plan, as(1);
 (f) a program calendar noting closed days and hours of operation;
 (g) the program’s fee schedule, including any fees for late payment, late pick-up, field trips,
 special materials, etc.;
@@ -1511,7 +1511,7 @@ recommendations set by the Division of Communicable Disease Control, Department 
 Public Health;
 (j) information regarding SIDS risk reduction practices, including the practice of sleeping
 infants on their backs as required by 606 CMR 7.11(13)(e);
-(k) the procedures relating to children’s records as in 606 CMR 7.04(7) through (10);
+(k) the procedures relating to children’s records as(7) through (10);
 (l) notice that child educators are mandated reporters and must, by law, report suspected
 child abuse or neglect to the Department of Children and Families;
 (m) notice that the program is licensed by EEC, including the telephone number and address
@@ -1529,7 +1529,7 @@ any emergency administration of non-prescription medication;
 care and custody of the licensee;
 (c) prior to or as soon as possible following any change in educators;
 (d) at the end of the day regarding any minor first aid administered;
-(e) in writing within 24 hours of any incident described in 606 CMR 7.08(8)(a), (b), or (d);
+(e) in writing within 24 hours of any incident described(8)(a), (b), or (d);
 (f) whenever special problems and significant developments arise, as provided at 606 CMR
 7.06(5);
 (g) whenever a communicable disease or condition has been identified in the program;
@@ -1706,7 +1706,7 @@ Age Child Care.
 (a) Staff Orientation. The licensee must provide and document orientation for all
 employees.
 1. No staff person shall supervise or be solely responsible for children in care until
-she/he has received the minimum orientation described in 606 CMR 7.09(16)(a)2.
+she/he has received the minimum orientation described(16)(a)2.
 2. The licensee must have a written plan for staff orientation, which must include:
 a. the position of the staff person responsible for conducting the orientation;
 b. the schedule and number of hours of the orientation; and
@@ -1743,12 +1743,12 @@ population served.
 7.09: continued
 (18) Additional Requirements for Large Group and School Age Child Care Programs Serving
 Children Younger than School Age.
-(a) Definitions. For the purposes of educator qualifications in 606 CMR 7.09(18), the
+(a) Definitions. For the purposes of educator qualifications(18), the
 following definitions shall apply:
 1. Alternative Early Childhood Training Program. The successful completion of a postsecondary
 early childhood teacher training program, approved by the Department, which
-includes both academic study of the categories in 606 CMR 7.09(18)(b) and at least one
-practicum as defined in 606 CMR 7.09(18)(a)2.
+includes both academic study of the categories(18)(b) and at least one
+practicum as defined(18)(a)2.
 2. Practicum. The successful completion of a minimum of 150 hours, over at least an
 eight week period, of direct work with infants and toddlers or preschoolers, supervised
 by personnel from an institution of higher learning or an alternative early childhood
@@ -1768,7 +1768,7 @@ enrolled in first grade, or special needs children up to age 16, at least 12 hou
 on a regular basis, in periods of at least four weeks in one program. Work experience of
 less than 12 hours per week may count as follows: 50 hours of consistent work at one
 program is equivalent to one month of work experience. Work experience, whether paid
-or unpaid, must meet the staff supervision requirements in 606 CMR 7.09(17)(b) and (c).
+or unpaid, must meet the staff supervision requirements(17)(b) and (c).
 Work experience must be in a licensed group child care center, family child care home
 or equivalent program accepted by the Department.
 (b) Categories of Study. The requirement for a category of study must be met with credits
@@ -1940,7 +1940,7 @@ Psychology, Physical Education, Recreation, Child Psychology, the Arts, Social
 Work, Sociology, or Child Care; and have six months of experience working with
 school age children; or
 b. Have a Bachelor's Degree in any field or an Associate’s Degree in any field of
-study listed in 606 CMR 7.09(19)(a)3.a. and have nine months of experience working
+study listed(19)(a)3.a. and have nine months of experience working
 with school age children; or
 c. Have a high school diploma or equivalent; and have one year of experience
 working with school age children.
@@ -1962,7 +1962,7 @@ of professional development activities per year.
 workforce shortage of early educators, and such shortages prevent programs from obtaining the
 appropriate staffing necessary to meet the health and safety needs of children, the Commissioner
 of the Department shall have the authority to revise and/or rescind any educator qualifications
-and professional development requirements under 606 CMR 7.04 and 7.09 to address this need.
+and professional development requirements and 7.09 to address this need.
 7.10: Ratios, Group Sizes and Supervision of Children
 The following requirements apply to all programs, including family child care, small group
 and school age and large group and school age child care. Additional requirements for family
@@ -2067,7 +2067,7 @@ in an infant seat, on a changing table, or any other surface that could result i
 (j) Children age seven or older may, with written parental consent, participate in activities
 within the approved indoor space without constant visual supervision by the educator. The
 educator must be aware of the child's location, monitor the child's activity at regular intervals
-based on the factors in 606 CMR 7.10(5)(b), be readily available to assist children, as
+based on the factors(5)(b), be readily available to assist children, as
 needed, and be able to respond immediately to an emergency situation.
 (k) Children age nine or older may leave the premises with written parent and educator
 consent, provided that the consent specifies the day and time the child will leave, the time
@@ -2286,7 +2286,7 @@ medication. The policy must provide for the administration of medications
 ordered by a child's health care practitioner.
 (b) All medication administered to a child, including but not limited to oral and topical
 medications of any kind, either prescription or non-prescription, must be provided by the
-child’s parent, unless noted in 606 CMR 7.11(2)(e)l.
+child’s parent, unless noted(2)(e)l.
 (c) All prescription medications must be in the containers in which they were originally
 dispensed and with their original labels affixed. Over-the-counter medications must be in the
 original manufacturer’s packaging.
@@ -2318,7 +2318,7 @@ licensee and the Department of Public Health, Drug Control Program.
 extraordinary circumstances and with parental consent.
 (j) Each time medication is administered, the educator must document in the child’s record
 the name of the medication, the dosage, the time and the method of administration, and who
-administered the medication, except as noted in 606 CMR 7.11(2)(k).
+administered the medication, except as noted(2)(k).
 (k) The educator must inform the child's parent(s) at the end of each day whenever a topical
 medication is applied to a diaper rash.
 606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
@@ -2419,7 +2419,7 @@ successfully completed training, given by the child's health care practitioner, 
 his/her written consent, given by the child's parent or the program's health consultant, that
 specifically addresses the child's medical condition, medication and other treatment needs.
 2. In addition to the requirements for the routine, scheduled administration of medication
-or treatment set forth in 606 CMR 7.11(3)(a), any unanticipated administration of
+or treatment set forth(3)(a), any unanticipated administration of
 medication or unanticipated treatment for a non-life-threatening condition requires that
 the educator must make a reasonable attempt to contact the parent(s) prior to
 administering such unanticipated medication or beginning such unanticipated treatment,
@@ -3068,14 +3068,14 @@ with any other applicable state or federal statutory or regulatory requirements 
 forth in their contracts with state agencies. Whenever possible, these other statutory, regulatory
 and contractual requirements shall be construed in a manner that is consistent with 606 CMR
 7.00.
-(2) Severability. If any provision contained in 606 CMR 7.00 or the application thereof is held
+(2) Severability. If any provision contained or the application thereof is held
 invalid to any person or circumstances the remainder of 606 CMR 7.00 and the application of the
 provision in question to other persons not similarly situated, or to other circumstances, shall not
 be affected thereby.
 (3) Prior Licenses. Any license or approval issued under the provisions of 102 CMR 7.00 or
 8.00 is in effect immediately prior to January 22, 2010 shall, notwithstanding its expiration date,
 remain in effect, unless suspended or revoked, until a new license or approval is issued or
-expressly refused or revoked under 606 CMR 7.00.
+expressly refused or revoked.
 REGULATORY AUTHORITY
 606 CMR 7.00: M.G.L. c. 15D.`
         },
@@ -3129,7 +3129,7 @@ accessible and affordable child care for children from birth through school age;
 (c) standardizing eligibility requirements and intake procedures for families; and
 (d) administering consistent procurement and payment policies and procedures.
 10.02 : Definitions
-Terms listed in 606 CMR 10.00 shall have the following meanings, unless the context requires
+Terms listed shall have the following meanings, unless the context requires
 otherwise.
 606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
 Absence. Any day that a child is authorized to attend an early education and care program, but is not in attendance.
@@ -3236,7 +3236,7 @@ Subject to appropriation, income eligible child care financial assistance is ava
 (b) Parent Choice. Parents may not be required to enroll their children at a particular child care program. Upon 14 days notice, parents may choose to withdraw their children from one child care program and enroll in another available program for the duration of the child care financial assistance, subject to funding availability and in accordance with EEC policy.
 (c) Enrollment Prior to Service Need. Eligible children may be enrolled in care 14 days prior to the start of the parent's service need.
 (2) Eligibility Criteria. To be eligible for income eligible child care financial assistance, parents must meet both income eligibility and service need requirements established by EEC.
-(a) Financial Requirements. Income eligibility is based on the income and the size of the family. Families headed by caregivers are exempt from financial eligibility guidelines, except as provided in 606 CMR 10.04(2)(a)4.
+(a) Financial Requirements. Income eligibility is based on the income and the size of the family. Families headed by caregivers are exempt from financial eligibility guidelines, except as provided(2)(a)4.
 1. General Rule. Families seeking child care financial assistance meet the financial requirements for the income eligible child care program provided that the total gross monthly income for the household is at or below 50% of the State Median Income at the time of the family's initial enrollment. Families, whose gross monthly income is at or below 50% of the State Median Income at the initial authorization, will continue to meet the financial requirements provided that the total gross monthly income for the household remains at or below 85% of the State Median Income.
 2. Families with a Child with a Disability. Families with a child with a disability will meet the financial requirements for the income eligible child care program provided that the total gross monthly income for the household is at or below 85% of the State Median Income at the time of the family's initial enrollment. Families, whose gross monthly income is at or below 85% of the State Median Income at the initial authorization, will continue to meet the financial requirements provided that the total gross monthly income for the household remains at or below 85% of the State Median Income. The disability of the child must be verified and documented in accordance with EEC policy.
 3. Relevant Income. When determining financial eligibility, relevant income shall include the income of the parents living with the child and income of the child receiving financial assistance (except for any earnings of a minor). Child support shall not be considered relevant income for determining financial eligibility.
@@ -3259,12 +3259,12 @@ i. All authorizations must be approved in writing by EEC in accordance with EEC 
 ii. Authorizations shall be authorized for up to three years. At the end of the authorization period, a parent may apply to EEC for a reauthorization upon certification in accordance with EEC policy that the disability persists or is a permanent condition.
 iii. All authorizations are reviewed under EEC's variance policy and may be appealed in the form of an Informal Hearing in accordance with the provisions of 606 CMR 10.11(7).
 e. Homelessness. Families meeting EEC’s definition for a family experiencing homelessness will qualify for full time child care.
-i. The asset requirements established in 606 CMR 10.04(2)(a)4 shall be waived for all families meeting the homelessness service need.
+i. The asset requirements established(2)(a)4 shall be waived for all families meeting the homelessness service need.
 ii. Parent fees shall be waived for all families meeting the homelessness service need.
 f. Domestic Violence. Families with a parent experiencing a situation of domestic violence, certified in accordance with EEC policy, will qualify for full-time care.
 2. Seeking Approved Activity. Parents who do not have an approved activity at time of initial authorization or at reauthorization may be granted a provisional authorization of 12 weeks to seek and certify an approved activity. This may include parents enrolled in a non-approved training program, or parents unable to certify employment at time of initial eligibility authorization.
 606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
-a. Parents who are able to provide documentation of an approved activity and meet all other program requirements described in 606 CMR 10.04(2) before the end of the 12-week period will be issued a 12-month authorization.
+a. Parents who are able to provide documentation of an approved activity and meet all other program requirements described(2) before the end of the 12-week period will be issued a 12-month authorization.
 b. Parents who are able to provide preliminary proof of an approved activity but are unable to provide documentation in accordance with EEC policy at the end of the 12-week period may be granted an extended period of eight weeks to provide the documentation required to qualify for a 12-month authorization.
 3. Combining Service Need Activities. Work, education or training, and disability of parent may be combined to meet service need requirements.
 4. Travel Time. Travel time may be added to a parent's weekly service need, in accordance with EEC policy, provided that the travel is related to the necessary time to/from the child care program and the parent's service need activity. Before travel time may be added to a service need, the parent must establish an average of at least 20 hours in an EEC approved activity, pursuant to 606 CMR 10.04(2)(b)1.
@@ -3277,53 +3277,53 @@ c. Parents who are able to provide documentation of a part time service need in 
 (b) Documentation. No more than 30 days after an application is received by a Family Access Administrator, parents must submit documentation that verifies the identity, residency, citizenship, or immigration status of any child seeking child care financial assistance; and documentation that verifies income, service need, family size, and relationship to all children and dependent relatives in the family, in accordance with EEC policy. At each subsequent reauthorization, parents must submit documentation that verifies their income and service need in accordance with 606 CMR 10.03(1)(g), and shall provide documentation verifying their residency only if it has changed since their last reauthorization.
 (c) Notice to Applicants. Upon receiving an application, a Family Access Administrator shall notify the applicant of the 30 day deadline for documentation submission. An application shall be deemed to have been received on the first date on which a Family Access Administrator reviews the application.
 10.05: Department of Transitional Assistance (DTA)-related Child Care Program
-Subject to appropriation, DTA may issue referrals for TAFDC and/or certain SNAP recipients, certain former TAFDC recipients, or any other DTA client seeking child care supported by financial assistance, to the extent allowed by state and federal law, through the DTA-related child care program, as described in 606 CMR 10.05(1) through (7). DTA Referrals for child care supported by financial assistance shall be issued in accordance with the regulations, guidelines, and policies established by DTA and in accordance with 606 CMR 10.03, unless otherwise noted.
+Subject to appropriation, DTA may issue referrals for TAFDC and/or certain SNAP recipients, certain former TAFDC recipients, or any other DTA client seeking child care supported by financial assistance, to the extent allowed by state and federal law, through the DTA-related child care program, as described(1) through (7). DTA Referrals for child care supported by financial assistance shall be issued in accordance with the regulations, guidelines, and policies established by DTA and in accordance with 606 CMR 10.03, unless otherwise noted.
 (1) Authorization. For any eligible parent seeking child care through the DTA-related child care program, DTA may issue a child care referral to the eligible parent based on the family's participation in the TAFDC, SNAP Pathways to Work, or DTA-related programs.
 (a) TAFDC and/or SNAP Families. Parents who currently receive TAFDC and/or SNAP and participate in a DTA-approved educational or employment-related activity may be issued a child care referral for priority access to child care supported by financial assistance for no less than 12 months, unless referral is for job development or placement, whereby a 12-week job search referral may be issued.
 606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
-(b) Transitional Families. Parents who have received TAFDC within the 24 months prior to their application for child care financial assistance and who obtain a child care referral from DTA will have priority access to child care financial assistance, provided they meet EEC eligibility guidelines as established in 606 CMR 10.03 and 10.04.
-(2) Referral. DTA shall issue parents a child care referral to the appropriate EEC Family Access Administrator. The Family Access Administrator shall help the parents identify a child care educator/provider who can provide care supported by financial assistance as defined in 606 CMR 10.08.
-(3) Eligibility Criteria. Eligibility for child care financial assistance through the DTA-related child care program shall be determined by DTA and verified by the Family Access Administrator based on the parent's DTA or TAFDC status, as described in 606 CMR 10.05(3)(a) and (b).
+(b) Transitional Families. Parents who have received TAFDC within the 24 months prior to their application for child care financial assistance and who obtain a child care referral from DTA will have priority access to child care financial assistance, provided they meet EEC eligibility guidelines as established and 10.04.
+(2) Referral. DTA shall issue parents a child care referral to the appropriate EEC Family Access Administrator. The Family Access Administrator shall help the parents identify a child care educator/provider who can provide care supported by financial assistance as defined.
+(3) Eligibility Criteria. Eligibility for child care financial assistance through the DTA-related child care program shall be determined by DTA and verified by the Family Access Administrator based on the parent's DTA or TAFDC status, as described(3)(a) and (b).
 (a) TAFDC Families. The child care referral is sufficient documentation that the parent is eligible for child care financial assistance for each child included in the referral. Family Access Administrators shall verify the identity of the parent(s) listed on the child care referral issued by DTA, in accordance with 606 CMR 10.03(1)(b).
 1) Fee Assessment. TAFDC families with child care referrals who currently receive TAFDC benefits from DTA shall not be charged any parent fees.
-2) Asset Limits - The asset requirements established in 606 CMR 10.04(2)(a)4 shall be waived for all families referred for child care financial assistance through the DTA-related child care program.
+2) Asset Limits - The asset requirements established(2)(a)4 shall be waived for all families referred for child care financial assistance through the DTA-related child care program.
 (b) Transitional Families. The child care referral is evidence of family relationship for all children included in the referral. Family Access Administrators shall verify the identity of the parent(s) listed on the child care referral issued by DTA, in accordance with 606 CMR 10.03(1)(b).
 (c) Fee Assessment. Transitional child care authorizations shall not be assessed a parent fee during the initial 12-month transitional period in accordance with 606 CMR 10.03(2).
-(4) Eligibility Period: Family Access Administrators should approve child care based on the parent's DTA or TAFDC status, as described in 606 CMR 10.05(4)(a) through (d).
+(4) Eligibility Period: Family Access Administrators should approve child care based on the parent's DTA or TAFDC status, as described(4)(a) through (d).
 (a) TAFDC Families. Family Access Administrators shall approve the child care financial assistance authorization based on the DTA referral, for no less than 12 months unless the referral is for job development or placement, whereby a 12-week job search referral may be authorized.
 (b) Transitional Families. Family Access Administrators shall approve the child care financial assistance authorization in accordance with 606 CMR 10.04(2)(b), not to exceed 24 months from the date the family's TAFDC case closed.
 (c) Notification. The Family Access Administrator shall notify families no fewer than two times, including at least once in writing, that their eligibility period is ending no fewer than 60 days prior to the end of the eligibility period.
 (5) Enrollment. Parents will enroll children directly at the child care educator/provider child care site in accordance with the procedures of the child care educator/provider.
 (6) Denial or Termination of Authorization. Parents aggrieved by DTA's denial or termination of a child care referral may pursue their grievance through the DTA Fair Hearing Process.
-(7) Continuity of Care. Parent(s) seeking to continue eligibility upon the end of the family's DTA-related child care program authorization or termination of transitional TAFDC care may continue to receive child care financial assistance through the income eligible child care program provided that the family meets the requirements set forth in 606 CMR 10.03 and 10.04.
+(7) Continuity of Care. Parent(s) seeking to continue eligibility upon the end of the family's DTA-related child care program authorization or termination of transitional TAFDC care may continue to receive child care financial assistance through the income eligible child care program provided that the family meets the requirements set forth and 10.04.
 10.06: Department of Children and Families (DCF)-related Child Care Program
-Subject to appropriation, DCF may issue referrals for children with active cases at DCF or during a transitional period following their case closure through the DCF-related child care program, as described in 606 CMR 10.06(1) through (9). DCF referrals for child care financial assistance shall be issued in accordance with the regulations, guidelines, and policies established by DCF and in accordance with the general provisions for child care financial assistance described in 606 CMR 10.03, unless otherwise noted.
+Subject to appropriation, DCF may issue referrals for children with active cases at DCF or during a transitional period following their case closure through the DCF-related child care program, as described(1) through (9). DCF referrals for child care financial assistance shall be issued in accordance with the regulations, guidelines, and policies established by DCF and in accordance with the general provisions for child care financial assistance described, unless otherwise noted.
 606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
 (1) Authorization. For any child with active cases at DCF, DCF may issue a referral for child care services to the parent.
 (2) Referral and Waitlist. DCF or its designee will determine the appropriateness of and authorize all referrals for DCF-related child care, and may either:
 (a) refer the parent to a Family Access Administrator authorized by EEC to provide DCF-related child care appropriate to the age and needs of the child; or
 (b) enter the child on a waitlist for child care, if there are no appropriate openings available.
-(3) Eligibility Criteria. DCF or its designee shall determine eligibility of its clients for DCF-related child care, in accordance with DCF regulations and policy. The child care referral is sufficient documentation that the children listed on the referral are eligible for DCF-related child care. Family Access Administrators shall verify the identity of the parents listed on the child care referral issued by DCF in accordance with 606 CMR 10.03(1)(b). The asset requirements established in 606 CMR 10.04(2)(a)4 shall be waived for all families referred for child care financial assistance through the DCF-related child care program.
+(3) Eligibility Criteria. DCF or its designee shall determine eligibility of its clients for DCF-related child care, in accordance with DCF regulations and policy. The child care referral is sufficient documentation that the children listed on the referral are eligible for DCF-related child care. Family Access Administrators shall verify the identity of the parents listed on the child care referral issued by DCF in accordance with 606 CMR 10.03(1)(b). The asset requirements established(2)(a)4 shall be waived for all families referred for child care financial assistance through the DCF-related child care program.
 (4) Eligibility Period. The DCF-related child care financial assistance will be authorized by the Family Access Administrator for not less than 12 months, and may be renewed by DCF for an additional 12-month period as needed. Unless approved by the DCF social worker and DCF supervisor, referrals for DCF-related child care may not be renewed more than once. Family Access Administrators shall notify families no fewer than two times that their eligibility period is ending. At least one of these notifications shall be in writing and shall be provided no fewer than 60 days prior to the end of the eligibility period.
 (a) Transitional Families. DCF may authorize transitional DCF-related child care to continue beyond the closure of the DCF case for no less than 12 months. Parents who seek eligibility following the parent's initial 12-month transitional period may receive priority access to child care financial assistance for one additional, transitional 12-month period, not to exceed 24 months from the date the family's DCF case closed., A parent fee shall not be assessed at the initial 12-month transitional period in accordance with 606 CMR 10.03(2).
 (b) Fee Assessment. DCF families with child care referrals who currently have an open case with DCF shall not be charged any parent fees. Transitional child care authorizations shall not be assessed a parent fee during the initial 12-month transitional period in accordance with 606 CMR 10.03(2).
 (5) Information Sharing. Subject to the authorization of the parents, DCF or its designee will share information with the child care educator/provider regarding the child's behavior and the family's psychosocial history to assist the child care educator/provider in meeting the needs of the child and family.
 (6) Enrollment. The parents shall complete the enrollment process in accordance with the child care educator/provider's policies and procedures.
-(7) Denial or Termination of DCF-related Child Care. DCF-related child care will continue until the end of the authorization period under 606 CMR 10.06(4). DCF-related child care will not be renewed at the reauthorization period once the protective case has closed, or when DCF has determined that services are no longer appropriate, whichever first occurs. Parents wishing to appeal the termination or denial of DCF-related child care may do so through the DCF Fair Hearing Process, in accordance with DCF policy and 110 CMR 10.00: Fair Hearings and Grievances.
-(8) Continuity of Care. Parent(s) seeking to continue eligibility upon the end of the of DCF-related child care authorization or transitional care may continue to receive child care financial assistance through the income eligible child care program provided that the family meets the requirements set forth in 606 CMR 10.03 and 10.04.
+(7) Denial or Termination of DCF-related Child Care. DCF-related child care will continue until the end of the authorization period(4). DCF-related child care will not be renewed at the reauthorization period once the protective case has closed, or when DCF has determined that services are no longer appropriate, whichever first occurs. Parents wishing to appeal the termination or denial of DCF-related child care may do so through the DCF Fair Hearing Process, in accordance with DCF policy and 110 CMR 10.00: Fair Hearings and Grievances.
+(8) Continuity of Care. Parent(s) seeking to continue eligibility upon the end of the of DCF-related child care authorization or transitional care may continue to receive child care financial assistance through the income eligible child care program provided that the family meets the requirements set forth and 10.04.
 10.07: Young Parent Child Care Services Program
-Subject to appropriation, young parents may be eligible to receive child care financial assistance through the young parent child care services program, as described in 606 CMR 10.07(1) through (6), and provided they meet the requirements of the general provisions for child care financial assistance described in 606 CMR 10.03, unless otherwise noted:
+Subject to appropriation, young parents may be eligible to receive child care financial assistance through the young parent child care services program, as described(1) through (6), and provided they meet the requirements of the general provisions for child care financial assistance described, unless otherwise noted:
 606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
-(1) Application and Referral. Young parents may apply for child care financial assistance at a CCRR, a program contracted to provide young parent child care services, a local DTA office, or any other location authorized by EEC. At the time of application, the young parent must complete a child care application and fee agreement on forms provided or approved by EEC. At the initial authorization, the young parent must submit documentation that verifies their identity, income, service need, residence, and family relationships, in accordance with EEC regulation and policy. At reauthorization, the young parent must only submit documentation that verifies their income and service need, and shall provide documentation verifying their residency only if it has changed since their last reauthorization. If a young parent has a current child care referral from DTA under 606 CMR 10.05(1)(a), the referral is sufficient documentation of their income, service need, residence, and family relationships.
+(1) Application and Referral. Young parents may apply for child care financial assistance at a CCRR, a program contracted to provide young parent child care services, a local DTA office, or any other location authorized by EEC. At the time of application, the young parent must complete a child care application and fee agreement on forms provided or approved by EEC. At the initial authorization, the young parent must submit documentation that verifies their identity, income, service need, residence, and family relationships, in accordance with EEC regulation and policy. At reauthorization, the young parent must only submit documentation that verifies their income and service need, and shall provide documentation verifying their residency only if it has changed since their last reauthorization. If a young parent has a current child care referral from DTA(1)(a), the referral is sufficient documentation of their income, service need, residence, and family relationships.
 (2) Referral and Waitlist. Based on availability, parents will be referred to and/or enrolled, subject to an eligibility determination, in the young parent child care services program. Parents unable to enroll in the young parent child care services program, due to a lack of available funding, will be placed on a child care financial assistance waitlist.
-(3) Eligibility Criteria. Young parents seeking access to child care financial assistance through the young parent child care services program must comply with the financial and service need requirements of 606 CMR 10.04, unless excepted in 606 CMR 10.07(3)(a) and (b).
+(3) Eligibility Criteria. Young parents seeking access to child care financial assistance through the young parent child care services program must comply with the financial and service need requirements of 606 CMR 10.04, unless excepted(3)(a) and (b).
 (a) Service Need Requirements. Unless authorized by DTA or DCF, young parents must participate in a full-time high school program, or a high school equivalency (GED) program, or must have received a GED or high school diploma and be participating in an approved higher education, training, and/or work activity as specified at 606 CMR 10.04(2)(b).
 (b) Age Requirements. Young parents are eligible to participate in the young parent child care services program until they reach their 24th birthday. Enrolled young parents who turn 24 years of age during their 12-month authorization may continue through the end date of their authorization.
 (4) Eligibility Periods. Eligibility is determined for periods not less than 12 months, subject to the family's continued eligibility for child care financial assistance. Family Access Administrators shall notify young parents no fewer than two times that their eligibility period is ending. At least one of these notifications shall be in writing and shall be provided no fewer than 60 days prior to the end of the eligibility period.
 (5) Denial or Termination of Services. All denials or terminations related to the young parent child care services program shall comply with 606 CMR 10.10 and 10.11.
-(6) Continuity of Care. Parent(s) seeking to continue eligibility upon the closure of the family's young parent child care services may continue to receive child care financial assistance through the income eligible child care program provided that the family meets the requirements set forth in 606 CMR 10.03 and 10.04 and any unpaid fee balance or disqualification period under 606 CMR 10.12 (1) through (5) is resolved.
+(6) Continuity of Care. Parent(s) seeking to continue eligibility upon the closure of the family's young parent child care services may continue to receive child care financial assistance through the income eligible child care program provided that the family meets the requirements set forth and 10.04 and any unpaid fee balance or disqualification period (1) through (5) is resolved.
 10.08: Child Care Educators/Providers and Informal Child Care Providers
-(1) Care by Licensed Educators/Providers. Except as set forth in 606 CMR 10.08(2), child care supported by financial assistance may be provided by an EEC licensed family child care educator/provider, a licensed group or school age child care program or through a family child care system, if the educator/provider, program or system holds a contract or voucher agreement with EEC to provide child care supported by financial assistance services.
+(1) Care by Licensed Educators/Providers. Except as set forth(2), child care supported by financial assistance may be provided by an EEC licensed family child care educator/provider, a licensed group or school age child care program or through a family child care system, if the educator/provider, program or system holds a contract or voucher agreement with EEC to provide child care supported by financial assistance services.
 (2) Care Exempt from Licensure.
 (a) Child care supported by financial assistance may be provided by a group or school age child care program that has been determined by EEC to be exempt from licensure, and with whom EEC holds a contract or an agreement to provide child care services supported by financial assistance or with whom a CCRR holds a voucher agreement. Prior to providing and being reimbursed for child care supported by financial assistance, license exempt providers providing care must:
 1. complete EEC's background record check certifying the child care provider exempt from licensure, as determined by EEC, has a background free of conduct which, in the judgment of EEC and in accordance with EEC's Background Record Check Regulations at 606 CMR 14.00: Criminal Offender and Other Background Record Checks, bears
@@ -3371,7 +3371,7 @@ Parents aggrieved by the denial or termination of their DTA authorization for ch
 (b) Intentional Program Violation;
 (c) Substantiated Fraud;
 (d) residency outside of the Commonwealth in accordance with 606 CMR 10.03(1)(c).
-(e) income exceeding limits detailed in 606 CMR 10.04(2)(a)1; or
+(e) income exceeding limits detailed(2)(a)1; or
 (f) non-approved break in care.
 (3) Notice. Whenever financial assistance is being denied or terminated, EEC or the Family Access Administrator must give the parent(s) written notice of the denial or termination and the option to request a review of the action through EEC’s review process and to request continuation of child care financial assistance services pending the outcome of the review and, if necessary, Informal Hearing. EEC or the Family Access Administrator shall use a notice provided or prescribed by EEC and shall provide the parent with the notice immediately upon the decision to deny child care financial assistance or at least 14 calendar days before the effective date of the termination.
 At a minimum, the notice shall include the following:
@@ -3392,7 +3392,7 @@ All notices required by EEC regulation and policy will be deemed adequately serv
 606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
 necessary, Informal Hearing if the parent:
 1. submits to the EEC a request for review, which shall serve as a request for the continuation of child care financial assistance, prior to the effective date of the termination or denial of the child care financial assistance;
-2. takes appropriate action to resolve any unpaid fee balance under 606 CMR 10.12(1) which caused the notice of termination prior to the effective date of the notice.
+2. takes appropriate action to resolve any unpaid fee balance(1) which caused the notice of termination prior to the effective date of the notice.
 3. at all times during the review process, including any Informal Hearing, if necessary, keep all undisputed fee payments current; and
 4. at all times during the review process, including any Informal Hearing, if necessary, ensure that the child continues to attend care in accordance with the child's Authorization.
 (b) If the denial was issued at an initial authorization, child care financial assistance shall not be available during the request for review or Informal Hearing process.
@@ -3411,7 +3411,7 @@ necessary, Informal Hearing if the parent:
 (5) Termination of Continued Child Care Financial Assistance. Child care financial assistance continued in accordance with 606 CMR 10.11(5)(a) shall be terminated if at any time during the review process or any subsequent appeals:
 (a) a determination is made that the sole issue is a challenge to the validity of a particular law or EEC regulation;
 (b) a change affecting the parent's financial assistance occurs subsequent to the filing of the request for a review which makes the previously filed request for a review moot, and the parent does not appeal the subsequent matter within the applicable time period; or
-(c) the parent fails to comply with the requirements for continuing child care financial assistance listed in 606 CMR 10.10(4).
+(c) the parent fails to comply with the requirements for continuing child care financial assistance listed(4).
 (6) Preliminary Review.
 606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
 (a) Notification. Within seven days of receipt of the parent's request for review, the EEC Review Officer shall notify the Family Access Administrator of the request for review, and shall request that the Family Access Administrator submit evidence in support of their determination. EEC’s Review Officer shall also notify the parent and the Family Access Administrator whether the child care financial assistance shall continue pending the outcome of the review.
@@ -3424,7 +3424,7 @@ necessary, Informal Hearing if the parent:
 4. Notice of Right to Appeal. The Review Officer's written decision shall inform the parent of the parent's right to appeal the written decision by requesting an Informal Hearing in accordance with 606 CMR 10.11(7). If the parent does not appeal, the Review Officer's written decision shall become the EEC's final agency decision and child care financial assistance shall be terminated immediately.
 (7) Informal Hearing. After a Preliminary Review, aggrieved parents may appeal the EEC Review Officer's decision by requesting an Informal Hearing.
 (a) Requesting an Informal Hearing. Parents may request an Informal Hearing by submitting to EEC’s General Counsel a written dated request, which may be made via email, for an Informal Hearing within 14 days of the date of the EEC Review Officer's written decision. The request for Informal Hearing must state the reason for the appeal. The General Counsel, or designee, may make disposition of the appeal, at the request of and with the consent of the parent, prior to the holding of a hearing; a parent shall have the continued right to an Informal Hearing after any such disposition or may choose to waive the hearing.
-(b) Continuation of Benefits Pending an Informal Hearing. In order for child care financial assistance to continue pending the outcome of the appeal, the parent shall timely appeal the decision in accordance with 606 CMR 10.11(7)(a), and shall comply with the requirements under 606 CMR 10.10(4).
+(b) Continuation of Benefits Pending an Informal Hearing. In order for child care financial assistance to continue pending the outcome of the appeal, the parent shall timely appeal the decision in accordance with 606 CMR 10.11(7)(a), and shall comply with the requirements(4).
 (c) Notice of Hearing. The General Counsel or the designated EEC Hearing Officer shall notify the parent, the Family Access Administrator, and EEC’s Review Officer of the date, time, and place of the hearing. The notice shall also describe the hearing procedure and the right to contact EEC to obtain further information, including the case file and documents to be submitted by EEC at the hearing.
 (d) Hearings.
 1. Timing. Within 60 Days of EEC’s receipt of the request for an Informal Hearing, EEC shall hold the hearing.
@@ -3459,12 +3459,12 @@ M.G.L. c. 30A, § 10.
 (b) If the parent does not pay the balance owed following receipt of the warning and does not pay the next scheduled parent fee payment owed on or by its due date, the provider may enter a repayment plan with the parent or the provider or Family Access Administrator may issue a notice of termination for non-payment of fees to the parent.
 (c) The provider may choose to enter into a repayment plan with the parent in lieu of issuing a termination notice, the terms of which must be agreed upon by both parties. If a parent adheres to the payment schedule of the repayment plan, no further action or sanction shall apply and no IPV shall issue. If a parent does not adhere to the payment schedule of the repayment plan, the provider or Family Access Administrator may issue a notice of termination for non-payment of fees to the parent.
 (d) A termination notice for non-payment of fees must be delivered to the parent 14 calendar days prior to termination of care and must state that services to the family will end 14 calendar days from the date the notice is delivered if the parent does not pay the overdue balance.
-(e) If the parent does not pay the overdue balance prior to the termination date listed in the termination notice, EEC shall issue the parent an IPV and child care financial assistance shall be terminated until the unpaid balance is paid in full. Following termination, if the parent pays the unpaid balance in full, the parent is eligible to return to care if allowable under 606 CMR 10.10 (4) or (5) or is eligible to return to the waitlist in accordance with 606 CMR 10.04, or pursuant to the applicable referral in accordance with 606 CMR 10.05 and 10.06.
+(e) If the parent does not pay the overdue balance prior to the termination date listed in the termination notice, EEC shall issue the parent an IPV and child care financial assistance shall be terminated until the unpaid balance is paid in full. Following termination, if the parent pays the unpaid balance in full, the parent is eligible to return to care if allowable (4) or (5) or is eligible to return to the waitlist in accordance with 606 CMR 10.04, or pursuant to the applicable referral in accordance with 606 CMR 10.05 and 10.06.
 (3) Exemptions to Sanctions.
-(a) A parent with an active TAFDC case in accordance with 606 CMR 10.05(4)(a) shall be exempt from the termination or disqualification sanctions during the period their TAFDC case remains open or through the end of their eligibility period under 606 CMR 10.05(4)(a), whichever is later.
+(a) A parent with an active TAFDC case in accordance with 606 CMR 10.05(4)(a) shall be exempt from the termination or disqualification sanctions during the period their TAFDC case remains open or through the end of their eligibility period(4)(a), whichever is later.
 (b) A parent with an active DCF referral pursuant to 606 CMR 10.06 will be exempt from the termination or disqualification sanctions during the period the parent receives DCF-related child care pursuant to 606 CMR 10.06(4).
 10.13: Applicability
-If any provision contained in 606 CMR 10.00 or the application thereof is held invalid to any person or circumstance, the remainder of 606 CMR 10.00 and the application of the provision in question to other persons not similarly situated, or to other circumstances, shall not be affected thereby.
+If any provision contained or the application thereof is held invalid to any person or circumstance, the remainder of 606 CMR 10.00 and the application of the provision in question to other persons not similarly situated, or to other circumstances, shall not be affected thereby.
 REGULATORY AUTHORITY
 606 CMR 10.00: M.G.L. c. 15D, and 45 CFR Part 98.11(b)(2) and (8).`
         },
@@ -3494,7 +3494,7 @@ Code of Massachusetts Regulations Title 606: Department of Early Education and C
 606 CMR 14.02
 14.02: Policy
 Currentness
-EEC's BRC regulations are designed to ensure the completion of BRCs on individuals subject to EEC's oversight, including those in receipt of federal Child Care Development Fund (CCDF) funding pursuant to the Child Care Development Block Grant (CCDBG) Act of 2014 at 42 USC § 9858 and funding through the Families First Prevention Services Act of 2017 at 42 USC, § 471(a)(20)(D). Further, BRCs shall be performed in accordance with the statutory framework of M.G.L. c. 15D, §§ 7 and 8, 606 CMR 14.00 and consistent with the timelines established by EEC regulations or policy. EEC is responsible for reviewing all disqualifying information for candidates, with the exception of candidates for adoptive and foster parents to the extent authorized by the Federal Bureau of Investigations (FBI) and state statute. EEC may delegate to another Commonwealth entity its authority to complete BRCs through a Memorandum of Understanding or other applicable agreement to the extent permitted by state and federal law. While effective immediately, EEC will implement the provisions of 606 CMR 14.00 in phases and provide updated timetables for implementation within its written policies. Nothing in 606 CMR 14.00 shall be construed to create a private right of action if an EEC licensed, approved or funded program has acted in accordance with 606 CMR 14.00 and any policies adopted thereunder.
+EEC's BRC regulations are designed to ensure the completion of BRCs on individuals subject to EEC's oversight, including those in receipt of federal Child Care Development Fund (CCDF) funding pursuant to the Child Care Development Block Grant (CCDBG) Act of 2014 at 42 USC § 9858 and funding through the Families First Prevention Services Act of 2017 at 42 USC, § 471(a)(20)(D). Further, BRCs shall be performed in accordance with the statutory framework of M.G.L. c. 15D, §§ 7 and 8, 606 CMR 14.00 and consistent with the timelines established by EEC regulations or policy. EEC is responsible for reviewing all disqualifying information for candidates, with the exception of candidates for adoptive and foster parents to the extent authorized by the Federal Bureau of Investigations (FBI) and state statute. EEC may delegate to another Commonwealth entity its authority to complete BRCs through a Memorandum of Understanding or other applicable agreement to the extent permitted by state and federal law. While effective immediately, EEC will implement the provisions of 606 CMR 14.00 in phases and provide updated timetables for implementation within its written policies. Nothing shall be construed to create a private right of action if an EEC licensed, approved or funded program has acted in accordance with 606 CMR 14.00 and any policies adopted thereunder.
 Credits
 History: 1433 Mass. Reg. 81, amended eff. Dec. 25, 2020.
 The Massachusetts Administrative Code titles are current through Register No. 1467, dated April 15, 2022. Some sections may be more current; see credits for details.
@@ -3526,13 +3526,13 @@ Child Care Development Block Grant (CCDBG): The 2014 Act that reauthorized the l
 14.04: Definitions, 606 MA ADC 14.04
 Conditional Hire: An individual who has the potential for unsupervised contact with children and who is part of a department licensed, funded or approved program or a provider of transportation services on behalf of any department licensed, funded or approved program and was hired prior to the obtaining of the results of a state and national fingerprint-based criminal history check because the employer determined that hiring the individual was necessary.
 Criminal Justice Official: The candidate's probation officer, parole officer or correctional facility superintendent (or designee), depending on who has had the most recent responsibility for supervising the candidate. In cases where the candidate was last supervised in a correctional facility, the candidate may advise EEC of any employee of the correctional facility who may have specific information about the candidate that would assist the superintendent or designee with their assessment.
-Criminal Offender Record Information (CORI): As used in 606 CMR 14.00, the term Criminal Offender Record Information (CORI) shall reflect the same meaning as the definition of the same term in M.G.L. c. 6, § 167 (2018 official edition) and 803 CMR 2.00: Criminal Offender Record Information (CORI). EEC is legally authorized to receive information pursuant to
+Criminal Offender Record Information (CORI): As used, the term Criminal Offender Record Information (CORI) shall reflect the same meaning as the definition of the same term in M.G.L. c. 6, § 167 (2018 official edition) and 803 CMR 2.00: Criminal Offender Record Information (CORI). EEC is legally authorized to receive information pursuant to
 M.G.L. c. 6, §§ 172 and 172F, including information in addition to CORI. CORI checks completed for candidates include all information referenced in M.G.L. c. 6, §§ 172 and 172F that EEC is legally authorized to receive.
 Department of Children and Families (DCF): A Massachusetts Executive Office of Health and Human Services agency, it maintains and provides child welfare information, including a central registry of substantiated findings of abuse or neglect of children in the Commonwealth.
 Department of Children and Families (DCF) Check: A check of Massachusetts DCF databases including its Central Registry and Registry of Alleged Perpetrators to determine if a candidate has been identified as the person responsible for abuse or neglect of a child in a supported M.G.L. c. 119, § 51B Report or is the alleged perpetrator of a pending investigation for abuse or neglect under M.G.L. c. 119, § 51A.
 Department of Criminal Justice Information Services (DCJIS): A Massachusetts Executive Office of Public Safety and Security agency, the DCJIS provides access to critical criminal justice information, including criminal record data, to authorized Commonwealth and national criminal justice and non-criminal justice agencies.
 Direct Visual Supervision: Continuous observation within an individual's immediate eyesight in an unobstructed manner. Supervision in this manner cannot occur through use of a camera. Supervision may occur through the presence of the child or resident's parent or guardian; through presence of state agency staff; or presence of program staff with a suitability decision on file.
-Discretionary Disqualification: A candidate with an adult or juvenile offense, regardless of its disposition, including pending and resolved charges for any crime, or a pending or supported finding for any child welfare offense as described in 606 CMR 14.10(3), unless the candidate is granted approval after complying with the EEC review process described in 606 CMR 14.12(2).
+Discretionary Disqualification: A candidate with an adult or juvenile offense, regardless of its disposition, including pending and resolved charges for any crime, or a pending or supported finding for any child welfare offense as described(3), unless the candidate is granted approval after complying with the EEC review process described(2).
 EEC Funded Program/Caregiver: Any program or individual that is exempt or not subject to EEC licensure or approval, who receives funding for subsidized child care from EEC. EEC Funded Program/Caregiver includes, but is not limited to, individuals who provide care in a child's home whether related or unrelated to the child; public schools; summer camps; and out of school time programs regardless of whether such entity is licensed or approved by EEC.
 Family Child Care Candidate: The family child care licensee; family child care assistants; and all household members and persons regularly on the premises of the family child care home 15 years of age or older, regardless of whether the individuals are present during child care hours.
 2
@@ -3546,7 +3546,7 @@ Funding from EEC: Reimbursement for the provision of subsidized child care inclu
 In-home Non-relative Caregiver: An individual receiving CCDF funding through EEC for subsidized child care to provide care to an unrelated child in the child's own home.
 Intern: Any person who provides their services to an EEC licensed, approved or funded program in order to gain work experience in and knowledge of a field. Internships may be paid or unpaid, part of a formal educational program or informally designed. Internships are usually for limited periods of time.
 Licensee: Any person holding a license or approval issued by the Department and responsible for the Program's operations and acting as the designated authority on behalf of a Program.
-Mandatory Disqualification: A candidate is ineligible for approval if the candidate has any offense within a BRC described in 606 CMR 14.10(1), unless the candidate is granted approval. Mandatory disqualifications do not require review under 606 CMR 14.12(2) unless explicitly permitted by 606 CMR 14.00.
+Mandatory Disqualification: A candidate is ineligible for approval if the candidate has any offense within a BRC described(1), unless the candidate is granted approval. Mandatory disqualifications do not require review(2) unless explicitly permitted by 606 CMR 14.00.
 Materially False Statement: Information provided by a candidate to EEC that is false or misleading and should have been identified by the candidate as inaccurate. Such information could have caused EEC to perform an invalid BRC, or lead to the omission of relevant BRC information. As an example, intentionally providing inaccurate identifying information.
 National Sex Offender Registry (NSOR) Check: The NSOR Check is a review of the sex offender information maintained by the National Crime Information Center (NCIC). Such information includes whether a candidate is registered as a sex offender in any other state or territory.
 Out of State Check: A search of available out of state records, registries, repositories and databases for any known criminal history, sex offender information, and child welfare information where a candidate has resided within the prior five years.
@@ -3554,7 +3554,7 @@ Pending: A criminal offense shall be considered pending if the criminal record i
 3
 14.04: Definitions, 606 MA ADC 14.04
 Placement Agency: A department, agency, or institution of the Commonwealth, or any political subdivision thereof, or any organization incorporated under the laws of the Commonwealth, one of whose principal purposes is providing custodial care and services to children, which receives by agreement with a parent or guardian, by contract with a state agency or as a result of a referral by a court of competent jurisdiction, any child younger than 18 years old, for placement in family foster care or in a residential facility, except that for the purposes of adoption placement, a “placement agency” shall be a department, agency, or institution of the Commonwealth, or any political subdivision thereof, or any organization incorporated under M.G.L. c. 180, one of whose principal purposes is providing custodial care and social services to children, which receives by agreement with a parent or guardian, by contract with a state agency or as a result of referral by a court of competent jurisdiction, any child younger than 18 years old, for placement in adoption.
-Presumptive Disqualification: A candidate is ineligible for BRC approval if their EEC BRC reflects any offense as described in 606 CMR 14.10(5), unless the candidate is granted approval after completing the review process described in 606 CMR 14.12(2). Such disqualifications create a presumption of a disqualification for licensure, employment or other services that result in unsupervised access to children, due to the presumed unacceptable risk to children posed by the nature of the crime to persons receiving services. Certain disqualifications will be deemed presumptive and subject to further scrutiny and may require the candidate to submit additional information.
+Presumptive Disqualification: A candidate is ineligible for BRC approval if their EEC BRC reflects any offense as described(5), unless the candidate is granted approval after completing the review process described(2). Such disqualifications create a presumption of a disqualification for licensure, employment or other services that result in unsupervised access to children, due to the presumed unacceptable risk to children posed by the nature of the crime to persons receiving services. Certain disqualifications will be deemed presumptive and subject to further scrutiny and may require the candidate to submit additional information.
 Program: An EEC licensed, approved or CCDF funded entity, including but not limited to, family child care, group, school aged, center-based and residential programs as well as placement agencies. Program includes entities that are in receipt of CCDF funding for subsidized child care but also not licensed by EEC or exempt from EEC's licensing oversight.
 Program Administrator (BRC): A person designated by a Program or an entity designated by EEC to submit candidate information during the BRC process, including BRC requests, consent forms for candidates, employment and affiliation decisions and any other information requested by EEC's BRC Unit. Candidates must at least be in provisional status with the Program when designated as BRC Program Administrator unless an exception defined by EEC policy applies.
 Provisional Hire/Status: A candidate who has completed the required sex offender and a fingerprint-based check who a Program seeks to utilize in a supervised capacity after EEC has completed the preliminary screening process. Provisional hires must at all times be under the direct visual supervision of a Program staff person that has a current final suitability determination of “suitable” from EEC. The candidate will remain in this category until EEC issues a final suitability determination. This category does not apply to family child care candidates, in home non relative caregiver, relative caregiver, transportation personnel, temporary agency staff, and contracted/service providers.
@@ -3569,7 +3569,7 @@ Sex Offender Registry Information (SORI): Information and classifications mainta
 Transportation Personnel: Any individual or a corporation who provides transportation services on behalf of any Program licensed, approved or CCDF-funded, whether directly employed or subcontracted with the Program. All transportation drivers and monitors are presumed to provide services in an unsupervised capacity.
 Unsupervised Capacity/Access: When a person has a reasonable likelihood of contact with children without being in the direct visual supervision of an EEC approved employee found “suitable” by EEC.
 Volunteer: Any person who assists in an unpaid and unsupervised capacity for an EEC licensed, approved or CCDF-funded program.
-Youthful Offender: As used in 606 CMR 14.00, the term Youthful Offender shall reflect the same meaning as the definition of the same term in M.G.L. c. 119, § 52 (2018 official edition).
+Youthful Offender: As used, the term Youthful Offender shall reflect the same meaning as the definition of the same term in M.G.L. c. 119, § 52 (2018 official edition).
 Credits
 History: 1433 Mass. Reg. 81, amended eff. Dec. 25, 2020.
 The Massachusetts Administrative Code titles are current through Register No. 1467, dated April 15, 2022. Some sections may be more current; see credits for details.
@@ -3799,7 +3799,7 @@ Refuse to consent to an EEC BRC as required by law, unless subsequently resolved
 14.10: Disqualifications, 606 MA ADC 14.10
 (e) Knowingly make a materially false statement in connection with a BRC, unless subsequently resolved in accordance with EEC policy.
 (2)
-Mandatory disqualifications falling within 606 CMR 14.10(1)(a) through (c) are for life as long as the disqualification appears on a record, and those appearing in 606 CMR 14.10(1)(d) and (e) last for up to three years subject to EEC's discretion.
+Mandatory disqualifications falling within 606 CMR 14.10(1)(a) through (c) are for life as long as the disqualification appears on a record, and those appearing(1)(d) and (e) last for up to three years subject to EEC's discretion.
 (3)
 EEC shall maintain a Table of Disqualifying Offenses listing specific crimes within the Commonwealth of Massachusetts, and out-of-state equivalents that fall within the disqualification categories.
 (4)
@@ -3807,7 +3807,7 @@ Any offense that is deemed a mandatory disqualification for a Child Care Candida
 (5)
 Presumptive Disqualification: A candidate shall have a presumptive disqualifying background if their BRC discloses:
 (a)
-Any pending charges, adjudications as a juvenile delinquent, Youthful Offender, non-conviction or not delinquent findings for an adult or juvenile, including sealed offenses and the equivalent, mandatory disqualification as defined in 606 CMR 14.10(1);
+Any pending charges, adjudications as a juvenile delinquent, Youthful Offender, non-conviction or not delinquent findings for an adult or juvenile, including sealed offenses and the equivalent, mandatory disqualification as defined(1);
 (b)
 A supported DCF finding or out of state equivalent determination for sexual abuse;
 (c)
@@ -3868,7 +3868,7 @@ EEC may elect to allow a candidate to remain in a provisional status with a pend
 (6)
 A verified mandatory disqualification will result in the issuance of a final suitability determination of “not suitable”.
 (7)
-If the BRC investigation reveals a discretionary or presumptive disqualification on the candidate's record, then the candidate shall be informed by EEC about the following process in addition to what is described in 606 CMR 14.10(1) through (3) :
+If the BRC investigation reveals a discretionary or presumptive disqualification on the candidate's record, then the candidate shall be informed by EEC about the following process in addition to what is described(1) through (3) :
 (a)
 Of the information required to obtain a review; and
 (b)
@@ -4027,9 +4027,9 @@ Candidates Providing Services on Behalf of EEC Licensed, Approved or Funded Prog
 (a)
 Candidates providing services in an unsupervised capacity for or on behalf of a Program or for any child attending the Program must obtain a final suitability determination from EEC.
 (b)
-If the candidate in 606 CMR 14.13(6)(a) is found “suitable”, then the candidate is no longer in provisional status and may continue providing services in the EEC licensed, approved or funded program in a permanent status.
+If the candidate(6)(a) is found “suitable”, then the candidate is no longer in provisional status and may continue providing services in the EEC licensed, approved or funded program in a permanent status.
 (c)
-If the candidate in 606 CMR 14.13(6)(a) is found “not suitable”, then the candidate may not provide services in or on behalf of the EEC licensed, approved or funded program and should be removed immediately or within a timeframe determined by EEC.
+If the candidate(6)(a) is found “not suitable”, then the candidate may not provide services in or on behalf of the EEC licensed, approved or funded program and should be removed immediately or within a timeframe determined by EEC.
 2
 14.13: Provisional and Conditional Hiring, Final Suitability..., 606 MA ADC 14.13
 (7)
@@ -4118,7 +4118,7 @@ Code of Massachusetts Regulations Title 606: Department of Early Education and C
 606 CMR 14.18
 14.18: Table of Disqualifying Offenses
 Currentness
-For a list of offenses falling into each disqualification category, please refer to EEC's Table of Disqualifying Offenses, which shall be available as an EEC policy on the EEC website found on www.mass.gov. These offenses shall be construed as including all violations of Massachusetts law or like violation of the law of another state, the United States, or a military, territorial or Indian tribal authority. Nothing in 606 CMR 14.18 shall preclude EEC from considering any criminal charges or convictions not included in any of the tables in making its suitability determinations.
+For a list of offenses falling into each disqualification category, please refer to EEC's Table of Disqualifying Offenses, which shall be available as an EEC policy on the EEC website found on www.mass.gov. These offenses shall be construed as including all violations of Massachusetts law or like violation of the law of another state, the United States, or a military, territorial or Indian tribal authority. Nothing shall preclude EEC from considering any criminal charges or convictions not included in any of the tables in making its suitability determinations.
 The Massachusetts Administrative Code titles are current through Register No. 1467, dated April 15, 2022. Some sections may be more current; see credits for details.
 Mass. Regs. Code tit. 606, § 14.18, 606 MA ADC 14.18
 End of Document
@@ -4149,7 +4149,7 @@ Section
 1.01: Introduction
 102 CMR 1.00 is adopted in accordance withM.G.L. c. 28A which stresses the commitment of stategovernmentto assureeverychild afairand full opportunity to reach his or her full potential. 102 CMR 1.00 includes definitions and requirements that apply to all programs that the Office licenses or approves and delineate the Office's authority to take legal action as a result of a program or facility's non-compliance with the appropriate regulations.
 1.02: Definitions
-As used in 102 CMR 1.00, 3.00, 5.00, 7.00 and8.00,the following words shall have the following meanings unless specifically defined therein or unless the context otherwise requires:
+As used, 3.00, 5.00, 7.00 and8.00,the following words shall have the following meanings unless specifically defined therein or unless the context otherwise requires:
 Abuse. The non-accidental commission ofanyactupona child which causes or creates a substantial risk of serious physical or emotional injury or constitutes a sexual offense under the laws of the Commonwealth.
 Applicant. The individual who has been designated as the person responsible for the administration of the program or facility and is the duly authorized agent of the person applying for licensure or approval.
 Approval. A certification in writing, whether regular or provisional, issued by the Office to a department, agency, or institution of the Commonwealth or any political subdivision thereof which authorizes it to operate any program licensable by the Office of Child Care Services.
@@ -4188,7 +4188,7 @@ Effective Dates and Severance
 (1)
 Effective Date. The effective date of 102 CMR 1.00 through 8.00 et seq. is May 1, 1997.
 (2)
-Licenses Issued Under Previous Standards. Any license, orapproval, ineffectimmediatelyprior to the effective date of 102 CMR 1.00 through 8.00 et seq. shall remain in effect, unless suspended or revoked, until a new license or approval is issued or expressly refused under 102 CMR 1.00 through 8.00 et seq.
+Licenses Issued Under Previous Standards. Any license, orapproval, ineffectimmediatelyprior to the effective date of 102 CMR 1.00 through 8.00 et seq. shall remain in effect, unless suspended or revoked, until a new license or approval is issued or expressly refused through 8.00 et seq.
 102 CMR: OFFICE OF CHILD CARE SERVICES
 1.04:
 continued
@@ -4257,7 +4257,7 @@ Whenever the Office finds upon inspection or through information in its possessi
 (b)
 The deficiency correction order shall include a statement ofobservations and indicate which regulation(s) the licensee has violated. The order may prescribe the method(s) of compliance with the regulations; and, the order shall prescribe the time period(s) for correction, which shall be reasonable, depending on the nature of the non-compliances cited and the time required for corrections.
 (2)
-Factorswhich shall be considered by the Office before imposing any sanction or fine or any action authorized under 102 CMR 1.07(4) include but are not limited to:
+Factorswhich shall be considered by the Office before imposing any sanction or fine or any action authorized(4) include but are not limited to:
 (a)
 any non-compliance at the facility or program;
 (b)
@@ -4304,9 +4304,9 @@ the applicant or licensee failed to comply with any applicable regulation, or an
 2.
 the applicant or licensee failed to pay a fineaftereitherfailingto appeal the assessment of a fine within the prescribed time or after a hearing where assessment of a fine was upheld;
 3.
-the applicant or licensee submitted any misleading or false statement or report required under 102 CMR 1.00 through 8.00 et seq.;
+the applicant or licensee submitted any misleading or false statement or report required through 8.00 et seq.;
 4.
-the applicant or licensee refused to submit any report or make available any records required under 102 CMR 1.00 through 8.00 et seq.;
+the applicant or licensee refused to submit any report or make available any records required through 8.00 et seq.;
 5.
 the applicant or licensee refused to admit, at a reasonable time, anyemployee of the Office authorized bytheCommissionerto investigate or inspect, in accordance with 102 CMR 1.00; or
 6.
@@ -4407,77 +4407,77 @@ REGULATORY AUTHORITY
     // Sample questions that will rotate in the sidebar
     sampleQuestions: [
         // 606 CMR 7.00 - Licensing Standards Questions
-        "What are the staff-to-child ratios for school age programs according to 606 CMR 7.10?",
-        "What qualifications does a School Age Program Administrator need under 606 CMR 7.09?",
-        "What are the requirements for outdoor play spaces in 606 CMR 7.07?",
-        "What health records must be maintained for children per 606 CMR 7.04?",
-        "What are the emergency preparedness requirements in 606 CMR 7.11?",
-        "What curriculum requirements are specified in 606 CMR 7.06?",
-        "What are the medication administration procedures under 606 CMR 7.11?",
-        "What parent communication requirements exist in 606 CMR 7.08?",
-        "What are the transportation safety requirements in 606 CMR 7.13?",
-        "What professional development is required for educators per 606 CMR 7.09?",
-        "What are the prohibited practices in child guidance under 606 CMR 7.05?",
-        "What are the nutrition requirements in 606 CMR 7.12?",
-        "What documentation is required at enrollment per 606 CMR 7.04?",
-        "What are the supervision requirements in 606 CMR 7.10?",
+        "What are the staff-to-child ratios for school age programs?",
+        "What qualifications does a School Age Program Administrator need?",
+        "What are the requirements for outdoor play spaces?",
+        "What health records must be maintained for children?",
+        "What are the emergency preparedness requirements?",
+        "What curriculum requirements are specified?",
+        "What are the medication administration procedures?",
+        "What parent communication requirements exist?",
+        "What are the transportation safety requirements?",
+        "What professional development is required for educators?",
+        "What are the prohibited practices in child guidance?",
+        "What are the nutrition requirements?",
+        "What documentation is required at enrollment?",
+        "What are the supervision requirements?",
         "What qualifications must a Group Leader have for school age programs?",
-        "What are the requirements for children with disabilities under 606 CMR 7.04?",
-        "What notifications must be made to EEC per 606 CMR 7.04?",
-        "What are the physical facility safety requirements in 606 CMR 7.07?",
-        "What are the infection control procedures in 606 CMR 7.11?",
+        "What are the requirements for children with disabilities?",
+        "What notifications must be made to EEC?",
+        "What are the physical facility safety requirements?",
+        "What are the infection control procedures?",
         "What family involvement practices are required by 606 CMR 7.08?",
 
         // 606 CMR 10.00 - Financial Assistance Questions
-        "What are the income eligibility requirements for child care financial assistance under 606 CMR 10.04?",
-        "What service needs qualify for child care financial assistance according to 606 CMR 10.04?",
-        "How are parent fees calculated under the financial assistance program per 606 CMR 10.03?",
+        "What are the income eligibility requirements for child care financial assistance?",
+        "What service needs qualify for child care financial assistance?",
+        "How are parent fees calculated under the financial assistance program?",
         "What is the authorization period for income eligible child care financial assistance?",
-        "What are the requirements for DTA-related child care under 606 CMR 10.05?",
-        "What is the eligibility criteria for DCF-related child care per 606 CMR 10.06?",
-        "Who qualifies for the Young Parent Child Care Services Program under 606 CMR 10.07?",
-        "What documentation is required for initial authorization under 606 CMR 10.04?",
-        "What changes must parents report during the authorization period per 606 CMR 10.03?",
-        "What are the reasons for termination of financial assistance under 606 CMR 10.10?",
-        "What is the review process for denial or termination of services per 606 CMR 10.11?",
-        "What are the sanctions for Intentional Program Violations under 606 CMR 10.12?",
-        "Can informal child care providers receive financial assistance payments per 606 CMR 10.08?",
+        "What are the requirements for DTA-related child care?",
+        "What is the eligibility criteria for DCF-related child care?",
+        "Who qualifies for the Young Parent Child Care Services Program?",
+        "What documentation is required for initial authorization?",
+        "What changes must parents report during the authorization period?",
+        "What are the reasons for termination of financial assistance?",
+        "What is the review process for denial or termination of services?",
+        "What are the sanctions for Intentional Program Violations?",
+        "Can informal child care providers receive financial assistance payments?",
         "What is a provisional authorization under the financial assistance regulations?",
         "What are the requirements for reauthorization of child care financial assistance?",
 
         // 606 CMR 14.00 - Background Record Check Questions
         "What is the purpose of 606 CMR 14.00 Background Record Checks?",
-        "Who must complete a Background Record Check under 606 CMR 14.05?",
-        "What are mandatory disqualifications under 606 CMR 14.10?",
-        "What is the difference between presumptive and discretionary disqualifications per 606 CMR 14.10?",
-        "What is provisional status and conditional hiring under 606 CMR 14.13?",
-        "How often must Background Record Checks be renewed according to 606 CMR 14.09?",
-        "What are the candidate categories for family child care BRCs per 606 CMR 14.05?",
-        "What is the review process for candidates with disqualifications under 606 CMR 14.12?",
-        "What appeals are available for 'not suitable' determinations per 606 CMR 14.14?",
+        "Who must complete a Background Record Check?",
+        "What are mandatory disqualifications?",
+        "What is the difference between presumptive and discretionary disqualifications?",
+        "What is provisional status and conditional hiring?",
+        "How often must Background Record Checks be renewed?",
+        "What are the candidate categories for family child care BRCs?",
+        "What is the review process for candidates with disqualifications?",
+        "What appeals are available for 'not suitable' determinations?",
         "What information must be submitted for a presumptive disqualification review?",
-        "What are the requirements for CORI, SORI, and fingerprint checks under 606 CMR 14.00?",
-        "Can household members affect a family child care license per 606 CMR 14.11?",
-        "What is a final suitability determination under 606 CMR 14.13?",
-        "What are program responsibilities for Background Record Checks per 606 CMR 14.15?",
+        "What are the requirements for CORI, SORI, and fingerprint checks?",
+        "Can household members affect a family child care license?",
+        "What is a final suitability determination?",
+        "What are program responsibilities for Background Record Checks?",
         "What happens if a candidate provides false information during a BRC?",
 
         // 102 CMR 1.00 - Enforcement Standards and Compliance Questions
         "What is the purpose of 102 CMR 1.00 Enforcement Standards?",
-        "What is a Deficiency Correction Order under 102 CMR 1.07?",
-        "What violations can result in sanctions or fines per 102 CMR 1.07?",
-        "What are the grounds for license suspension under 102 CMR 1.07?",
-        "What are the grounds for license revocation according to 102 CMR 1.07?",
-        "What is the probation process for licensed programs per 102 CMR 1.07?",
-        "What appeal rights do licensees have under 102 CMR 1.08?",
-        "What is EEC's 'right to visit' authority according to 102 CMR 1.06?",
-        "What notification requirements must programs follow per 102 CMR 1.09?",
-        "What constitutes disqualifying background information under 102 CMR 1.05?",
-        "What are the effective dates and severance provisions in 102 CMR 1.04?",
-        "What enforcement actions can EEC take for non-compliance per 102 CMR 1.07?",
-        "How are fines calculated for regulatory violations under 102 CMR 1.07?",
-        "What is the timeline for correcting deficiencies under 102 CMR 1.07?",
-        "Can programs continue operating during the appeals process per 102 CMR 1.08?"
+        "What is a Deficiency Correction Order?",
+        "What violations can result in sanctions or fines?",
+        "What are the grounds for license suspension?",
+        "What are the grounds for license revocation?",
+        "What is the probation process for licensed programs?",
+        "What appeal rights do licensees have?",
+        "What is EEC's 'right to visit' authority?",
+        "What notification requirements must programs follow?",
+        "What constitutes disqualifying background information?",
+        "What are the effective dates and severance provisions?",
+        "What enforcement actions can EEC take for non-compliance?",
+        "How are fines calculated for regulatory violations?",
+        "What is the timeline for correcting deficiencies?",
+        "Can programs continue operating during the appeals process?"
     ],
 
     // Get all document contents combined for the AI context
