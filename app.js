@@ -11,6 +11,7 @@ class ChatApp {
         this.conversationHistory = [];
         this.currentQuestions = [];
         this.questionRotationInterval = null;
+        this.isProcessing = false; // Prevent multiple simultaneous requests
 
         this.init();
     }
@@ -111,6 +112,15 @@ class ChatApp {
             return;
         }
 
+        // Prevent multiple simultaneous requests
+        if (this.isProcessing) {
+            console.log('Already processing a request, ignoring duplicate submission');
+            return;
+        }
+
+        // Set processing flag
+        this.isProcessing = true;
+
         // Clear input and disable button
         this.userInput.value = '';
         this.sendButton.disabled = true;
@@ -139,6 +149,7 @@ class ChatApp {
             );
         } finally {
             this.sendButton.disabled = false;
+            this.isProcessing = false; // Reset processing flag
             this.userInput.focus();
         }
     }
@@ -182,8 +193,31 @@ Question: ${userMessage}`;
 
         const data = await response.json();
 
-        // Extract content and citations
-        const content = data.content[0].text;
+        // Debug: Log the full API response to console
+        console.log('API Response:', data);
+        console.log('Content blocks:', data.content);
+        console.log('Number of content blocks:', data.content ? data.content.length : 0);
+
+        // Handle potential error responses
+        if (data.error) {
+            throw new Error(data.error.message || 'Unknown API error');
+        }
+
+        // Safely extract content - Claude API returns content as an array of content blocks
+        // Each block has a type (usually 'text') and the actual text
+        if (!data.content || !Array.isArray(data.content) || data.content.length === 0) {
+            throw new Error('Invalid API response format: no content blocks found');
+        }
+
+        // Extract only text blocks and concatenate them (there should typically be only one)
+        const content = data.content
+            .filter(block => block.type === 'text')
+            .map(block => block.text)
+            .join('\n\n');
+
+        console.log('Extracted content length:', content.length);
+        console.log('First 200 chars:', content.substring(0, 200));
+
         const citations = this.extractCitations(content);
 
         return {
