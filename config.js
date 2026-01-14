@@ -6,7 +6,7 @@ const CONFIG = {
     // Backend Proxy Configuration (Cloudflare Worker)
     // IMPORTANT: Update this with your Cloudflare Worker URL after deployment
     // Example: 'https://ma-regulations-chatbot-api.your-subdomain.workers.dev'
-    WORKER_ENDPOINT: 'YOUR_WORKER_URL_HERE', // Replace with your deployed worker URL
+    WORKER_ENDPOINT: 'https://bitter-grass-e82f.map-asost.workers.dev', // Cloudflare Worker endpoint
 
     // Claude API Configuration (for reference only - key is now on the server)
     CLAUDE_MODEL: 'claude-3-5-sonnet-20241022',
