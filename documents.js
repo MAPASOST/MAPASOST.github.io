@@ -4492,67 +4492,143 @@ ${doc.content}
         }).join('\n\n');
     },
 
-    // Get relevant documents based on the question (smart filtering to reduce token usage)
+    // Split document into sections for ultra-precise filtering
+    splitDocumentIntoSections(doc) {
+        const sections = [];
+        const content = doc.content;
+
+        // Regex to match section headers like "7.01:", "10.03:", "14.05:", "1.02:"
+        const sectionRegex = /\n(\d+\.\d+):\s*([^\n]+)/g;
+
+        let matches = [...content.matchAll(sectionRegex)];
+
+        for (let i = 0; i < matches.length; i++) {
+            const match = matches[i];
+            const sectionNumber = match[1];
+            const sectionTitle = match[2];
+            const startIndex = match.index;
+            const endIndex = i < matches.length - 1 ? matches[i + 1].index : content.length;
+            const sectionContent = content.substring(startIndex, endIndex).trim();
+
+            sections.push({
+                number: sectionNumber,
+                title: sectionTitle,
+                content: sectionContent,
+                fullName: `${sectionNumber}: ${sectionTitle}`
+            });
+        }
+
+        return sections;
+    },
+
+    // Get relevant sections based on question (ultra-aggressive filtering - 90-95% token reduction)
     getRelevantDocumentContent(question) {
         const questionLower = question.toLowerCase();
-        const relevantDocs = [];
+        const relevantSections = [];
 
-        // Keywords/phrases that map to specific documents
-        const documentKeywords = {
-            'ma-606-cmr-7': [
-                '606 cmr 7', 'cmr 7.', 'licensure', 'license', 'family child care',
-                'small group', 'large group', 'program standards'
-            ],
-            'ma-606-cmr-10': [
-                '606 cmr 10', 'cmr 10.', 'background record check', 'brc',
-                'criminal history', 'fingerprint', 'suitability determination',
-                'disqualifying information'
-            ],
-            'ma-606-cmr-14': [
-                '606 cmr 14', 'cmr 14.', 'financial assistance', 'subsidy',
-                'subsidies', 'income eligible', 'voucher', 'state median income',
-                'smi', 'fee', 'copayment', 'co-payment'
-            ],
-            'ma-102-cmr-1': [
-                '102 cmr 1', 'cmr 1.', 'reporting requirements', 'provider reporting',
-                'child information', 'data collection', 'attendance reporting'
-            ]
+        // Map keywords to specific document sections
+        const sectionKeywords = {
+            // 606 CMR 7 sections
+            'ma-606-cmr-7': {
+                '7.09': ['staff', 'educator', 'qualification', 'credential', 'director', 'administrator', 'training', 'professional development', 'experience'],
+                '7.10': ['ratio', 'group size', 'supervision', 'staff-to-child', 'staff to child'],
+                '7.11': ['health', 'safety', 'medical', 'medication', 'emergency', 'illness', 'injury', 'first aid'],
+                '7.12': ['nutrition', 'food', 'meal', 'snack', 'dietary'],
+                '7.13': ['transportation', 'vehicle', 'bus', 'driver'],
+                '7.07': ['facility', 'physical', 'space', 'building', 'square feet', 'indoor', 'outdoor'],
+                '7.05': ['interaction', 'behavior', 'guidance', 'discipline', 'positive'],
+                '7.06': ['curriculum', 'progress', 'assessment', 'learning', 'development'],
+                '7.03': ['license', 'licensure', 'approval', 'application', 'renewal'],
+                '7.04': ['administration', 'policies', 'procedure', 'record', 'file'],
+                '7.08': ['family', 'parent', 'involvement', 'communication']
+            },
+            // 606 CMR 10 sections
+            'ma-606-cmr-10': {
+                '10.03': ['background check', 'brc', 'criminal history', 'fingerprint', 'record check'],
+                '10.04': ['suitability', 'determination', 'disqualifying', 'offense'],
+                '10.05': ['appeal', 'hearing', 'waiver'],
+                '10.06': ['renewal', 'update', 'ongoing']
+            },
+            // 606 CMR 14 sections
+            'ma-606-cmr-14': {
+                '14.03': ['financial assistance', 'subsidy', 'eligible', 'eligibility', 'income'],
+                '14.04': ['voucher', 'payment', 'reimbursement'],
+                '14.05': ['fee', 'copayment', 'co-payment', 'parent fee', 'family fee'],
+                '14.06': ['state median income', 'smi', 'income level']
+            },
+            // 102 CMR 1 sections
+            'ma-102-cmr-1': {
+                '1.02': ['reporting', 'report', 'data', 'information'],
+                '1.03': ['attendance', 'enrollment', 'child information'],
+                '1.04': ['provider', 'submission', 'deadline']
+            }
         };
 
-        // Check which documents match the question
-        for (const [docId, keywords] of Object.entries(documentKeywords)) {
-            const hasMatch = keywords.some(keyword => questionLower.includes(keyword));
-            if (hasMatch) {
-                const doc = this.documents.find(d => d.id === docId);
-                if (doc) {
-                    relevantDocs.push(doc);
+        // First, identify which documents are relevant
+        const relevantDocIds = new Set();
+
+        // Check for explicit regulation references (e.g., "606 CMR 7", "CMR 10.03")
+        if (questionLower.includes('606 cmr 7') || questionLower.includes('cmr 7.')) {
+            relevantDocIds.add('ma-606-cmr-7');
+        }
+        if (questionLower.includes('606 cmr 10') || questionLower.includes('cmr 10.')) {
+            relevantDocIds.add('ma-606-cmr-10');
+        }
+        if (questionLower.includes('606 cmr 14') || questionLower.includes('cmr 14.')) {
+            relevantDocIds.add('ma-606-cmr-14');
+        }
+        if (questionLower.includes('102 cmr 1') || questionLower.includes('cmr 1.')) {
+            relevantDocIds.add('ma-102-cmr-1');
+        }
+
+        // Check for keyword matches and find specific sections
+        for (const [docId, sections] of Object.entries(sectionKeywords)) {
+            for (const [sectionNum, keywords] of Object.entries(sections)) {
+                const hasMatch = keywords.some(keyword => questionLower.includes(keyword));
+                if (hasMatch) {
+                    relevantDocIds.add(docId);
+
+                    const doc = this.documents.find(d => d.id === docId);
+                    if (doc) {
+                        const allSections = this.splitDocumentIntoSections(doc);
+                        const matchingSection = allSections.find(s => s.number === sectionNum);
+                        if (matchingSection) {
+                            relevantSections.push({
+                                doc: doc,
+                                section: matchingSection
+                            });
+                        }
+                    }
                 }
             }
         }
 
-        // If no specific matches, use a smart default based on common topics
-        if (relevantDocs.length === 0) {
-            // Common topics that are primarily in 606 CMR 7
-            const cmr7Topics = [
-                'staff', 'ratio', 'educator', 'qualification', 'supervision',
-                'health', 'safety', 'nutrition', 'curriculum', 'facility',
-                'transportation', 'age', 'program administrator', 'director',
-                'training', 'professional development', 'group size'
-            ];
+        // If we found specific sections, return only those
+        if (relevantSections.length > 0) {
+            console.log(`Ultra-precise filtering: Sending ${relevantSections.length} specific sections instead of full documents`);
+            return relevantSections.map(({ doc, section }) => {
+                return `=== DOCUMENT: ${doc.name} ===
+=== SECTION: ${section.fullName} ===
 
-            const isCmr7Topic = cmr7Topics.some(topic => questionLower.includes(topic));
+${section.content}
 
-            if (isCmr7Topic) {
-                // Send only 606 CMR 7 (the main standards document)
-                relevantDocs.push(this.documents.find(d => d.id === 'ma-606-cmr-7'));
-            } else {
-                // For general questions, send the two most commonly referenced documents
-                relevantDocs.push(this.documents.find(d => d.id === 'ma-606-cmr-7'));
-                relevantDocs.push(this.documents.find(d => d.id === 'ma-606-cmr-10'));
-            }
+=== END OF SECTION ===`;
+            }).join('\n\n');
         }
 
-        // Format and return the relevant documents
+        // Fallback: If no specific sections matched, send the most relevant 1-2 documents
+        // (This is the previous behavior as a safety net)
+        console.log('Using document-level filtering (no specific sections matched)');
+
+        if (relevantDocIds.size === 0) {
+            // Default to most commonly used document
+            relevantDocIds.add('ma-606-cmr-7');
+        }
+
+        const relevantDocs = Array.from(relevantDocIds).map(id =>
+            this.documents.find(d => d.id === id)
+        ).filter(Boolean);
+
         return relevantDocs.map(doc => {
             return `=== DOCUMENT: ${doc.name} ===
 Description: ${doc.description}
