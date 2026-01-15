@@ -155,10 +155,10 @@ class ChatApp {
     }
 
     async queryClaudeAPI(userMessage) {
-        // Prepare the context with ONLY relevant sections (reduces token usage by 90-95%)
-        const documentContext = DOCUMENTS.getRelevantDocumentContent(userMessage);
+        // Send all documents to ensure complete coverage (no filtering)
+        const documentContext = DOCUMENTS.getAllDocumentContent();
 
-        console.log('Using ultra-precise section filtering to minimize token usage');
+        console.log('Sending all documents for complete coverage');
 
         // Build the prompt
         const fullPrompt = `Here are the Massachusetts school age program regulation documents you should reference:
