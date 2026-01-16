@@ -126,7 +126,7 @@ class ChatApp {
             this.addMessage('assistant',
                 `⏱️ Please wait ${remainingCooldown} seconds before asking another question. This cooldown helps prevent rate limit errors and ensures you can ask multiple questions.`
             );
-            this.startCooldownTimer(remainingCooldown);
+            // Don't restart the timer - let the original timer continue
             return;
         }
 
