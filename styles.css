@@ -73,6 +73,55 @@ header .subtitle {
     font-weight: 400;
 }
 
+/* Disclaimer - Prominent Warning Box */
+.disclaimer {
+    background: #fffbeb;
+    border: 2px solid #f59e0b;
+    border-radius: var(--radius-lg);
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-md);
+}
+
+.disclaimer-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.disclaimer-content {
+    color: #78350f;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.disclaimer-content p {
+    margin-bottom: 0.875rem;
+}
+
+.disclaimer-content p:last-child {
+    margin-bottom: 0;
+}
+
+.disclaimer-content strong {
+    font-weight: 600;
+    color: #92400e;
+}
+
+.disclaimer-content a {
+    color: #2563eb;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.disclaimer-content a:hover {
+    color: #1d4ed8;
+}
+
 /* Main Content Layout */
 .main-content {
     display: grid;
