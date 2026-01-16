@@ -122,6 +122,53 @@ header .subtitle {
     color: #1d4ed8;
 }
 
+.disclaimer-button-container {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #fbbf24;
+    text-align: center;
+}
+
+.official-regs-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.official-regs-button:hover {
+    background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+    box-shadow: var(--shadow-xl);
+    transform: translateY(-2px);
+    border-color: #1d4ed8;
+}
+
+.official-regs-button:active {
+    transform: translateY(0);
+}
+
+.official-regs-button .button-icon {
+    font-size: 1.5rem;
+}
+
+.official-regs-button .button-arrow {
+    font-size: 1.25rem;
+    transition: transform 0.3s ease;
+}
+
+.official-regs-button:hover .button-arrow {
+    transform: translateX(4px);
+}
+
 /* Main Content Layout */
 .main-content {
     display: grid;
