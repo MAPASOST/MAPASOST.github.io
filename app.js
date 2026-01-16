@@ -139,9 +139,19 @@ class ChatApp {
         // Set processing flag
         this.isProcessing = true;
 
+        // Clear any existing cooldown timer
+        if (this.cooldownTimer) {
+            clearInterval(this.cooldownTimer);
+            this.cooldownTimer = null;
+        }
+
         // Clear input and disable button
         this.userInput.value = '';
         this.sendButton.disabled = true;
+        const buttonText = this.sendButton.querySelector('span');
+        if (buttonText) {
+            buttonText.textContent = 'Send';
+        }
 
         // Add user message to chat
         this.addMessage('user', message);
@@ -177,8 +187,14 @@ class ChatApp {
                     `I apologize, but I encountered an error: ${error.message}. Please make sure your API key is correctly configured.`
                 );
             }
-        } finally {
+
+            // Don't start cooldown on error - let user retry immediately
             this.sendButton.disabled = false;
+            const buttonText = this.sendButton.querySelector('span');
+            if (buttonText) {
+                buttonText.textContent = 'Send';
+            }
+        } finally {
             this.isProcessing = false; // Reset processing flag
             this.userInput.focus();
         }
@@ -387,11 +403,16 @@ Question: ${userMessage}`;
         // Clear any existing timer
         if (this.cooldownTimer) {
             clearInterval(this.cooldownTimer);
+            this.cooldownTimer = null;
         }
 
         let remaining = seconds;
         const buttonText = this.sendButton.querySelector('span');
-        const originalText = buttonText.textContent;
+
+        if (!buttonText) {
+            console.error('Button text span not found');
+            return;
+        }
 
         // Update button immediately
         this.sendButton.disabled = true;
@@ -402,8 +423,10 @@ Question: ${userMessage}`;
             remaining--;
             if (remaining > 0) {
                 buttonText.textContent = `Wait ${remaining}s`;
+                this.sendButton.disabled = true; // Ensure button stays disabled
             } else {
-                buttonText.textContent = originalText;
+                // Cooldown complete - reset button
+                buttonText.textContent = 'Send';
                 this.sendButton.disabled = false;
                 clearInterval(this.cooldownTimer);
                 this.cooldownTimer = null;
