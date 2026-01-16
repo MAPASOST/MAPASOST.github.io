@@ -84,10 +84,10 @@ header .subtitle {
 }
 
 .disclaimer-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #92400e;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #dc2626;
+    margin-bottom: 1.25rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -100,7 +100,7 @@ header .subtitle {
 }
 
 .disclaimer-content p {
-    margin-bottom: 0.875rem;
+    margin-bottom: 1.25rem;
 }
 
 .disclaimer-content p:last-child {
