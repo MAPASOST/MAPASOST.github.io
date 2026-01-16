@@ -13,6 +13,11 @@ class ChatApp {
         this.questionRotationInterval = null;
         this.isProcessing = false; // Prevent multiple simultaneous requests
 
+        // Rate limit management
+        this.lastRequestTime = 0;
+        this.cooldownSeconds = 20; // 20 second cooldown between requests
+        this.cooldownTimer = null;
+
         this.init();
     }
 
@@ -112,6 +117,19 @@ class ChatApp {
             return;
         }
 
+        // Check cooldown period to prevent rate limiting
+        const now = Date.now();
+        const timeSinceLastRequest = (now - this.lastRequestTime) / 1000; // in seconds
+        const remainingCooldown = Math.ceil(this.cooldownSeconds - timeSinceLastRequest);
+
+        if (this.lastRequestTime > 0 && remainingCooldown > 0) {
+            this.addMessage('assistant',
+                `⏱️ Please wait ${remainingCooldown} seconds before asking another question. This cooldown helps prevent rate limit errors and ensures you can ask multiple questions.`
+            );
+            this.startCooldownTimer(remainingCooldown);
+            return;
+        }
+
         // Prevent multiple simultaneous requests
         if (this.isProcessing) {
             console.log('Already processing a request, ignoring duplicate submission');
@@ -141,12 +159,24 @@ class ChatApp {
             // Add assistant response
             this.addMessage('assistant', response.content, response.citations);
 
+            // Update last request time and start cooldown
+            this.lastRequestTime = Date.now();
+            this.startCooldownTimer(this.cooldownSeconds);
+
         } catch (error) {
             console.error('Error:', error);
             this.removeLoading(loadingId);
-            this.addMessage('assistant',
-                `I apologize, but I encountered an error: ${error.message}. Please make sure your API key is correctly configured in config.js.`
-            );
+
+            // Check if this is a rate limit error
+            if (error.message.includes('rate limit') || error.message.includes('429')) {
+                this.addMessage('assistant',
+                    `⚠️ **Rate Limit Reached**\n\nYou've asked too many questions too quickly. Due to the size of the regulation documents, each question uses significant API resources.\n\n**What this means:** You need to wait about 1 minute before asking another question.\n\n**Why this happens:** Each question sends all regulation documents (~100,000 tokens) to the AI, and there's a limit of 30,000 tokens per minute.\n\n**Tip:** Space out your questions and wait for the cooldown timer to help avoid this issue.`
+                );
+            } else {
+                this.addMessage('assistant',
+                    `I apologize, but I encountered an error: ${error.message}. Please make sure your API key is correctly configured.`
+                );
+            }
         } finally {
             this.sendButton.disabled = false;
             this.isProcessing = false; // Reset processing flag
@@ -351,6 +381,34 @@ Question: ${userMessage}`;
         if (loadingDiv) {
             loadingDiv.remove();
         }
+    }
+
+    startCooldownTimer(seconds) {
+        // Clear any existing timer
+        if (this.cooldownTimer) {
+            clearInterval(this.cooldownTimer);
+        }
+
+        let remaining = seconds;
+        const buttonText = this.sendButton.querySelector('span');
+        const originalText = buttonText.textContent;
+
+        // Update button immediately
+        this.sendButton.disabled = true;
+        buttonText.textContent = `Wait ${remaining}s`;
+
+        // Update every second
+        this.cooldownTimer = setInterval(() => {
+            remaining--;
+            if (remaining > 0) {
+                buttonText.textContent = `Wait ${remaining}s`;
+            } else {
+                buttonText.textContent = originalText;
+                this.sendButton.disabled = false;
+                clearInterval(this.cooldownTimer);
+                this.cooldownTimer = null;
+            }
+        }, 1000);
     }
 
     scrollToBottom() {
