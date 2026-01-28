@@ -1,0 +1,100 @@
+================================================================================================
+SETUP INSTRUCTIONS FOR MA SCHOOL AGE REGULATIONS CHATBOT
+================================================================================================
+
+Your chatbot website is complete and ready to use! Follow these simple steps:
+
+STEP 1: ADD YOUR CLAUDE API KEY
+================================================================================================
+1. Open the file: config.js
+2. Find the line that says:
+   ANTHROPIC_API_KEY: 'your-api-key-here',
+
+3. Replace 'your-api-key-here' with your actual Claude API key from Anthropic
+   Example: ANTHROPIC_API_KEY: 'sk-ant-api03-ABC123...',
+
+4. Get an API key at: https://console.anthropic.com/
+
+
+STEP 2: ADD THE FULL REGULATION TEXT
+================================================================================================
+1. Open the file: documents.js
+
+2. Find the content field (around line 11) that starts with:
+   content: `606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE...
+
+3. Find the section that says "IMPORTANT NOTE" (around line 70)
+
+4. DELETE everything from "IMPORTANT NOTE" to the end of the closing backtick
+
+5. PASTE the complete 606 CMR 7.00 regulation text you provided earlier
+
+6. Your content field should look like:
+   content: `606 CMR: DEPARTMENT OF EARLY EDUCATION AND CARE
+   606 CMR 7.00: STANDARDS FOR THE LICENSURE OR APPROVAL...
+
+   [ALL YOUR REGULATION TEXT HERE - from section 7.01 through 7.14]
+
+   REGULATORY AUTHORITY
+   606 CMR 7.00: M.G.L. c. 15D.`
+
+7. Save the file
+
+
+STEP 3: TEST THE WEBSITE
+================================================================================================
+1. Open index.html in a web browser
+2. You should see:
+   - Sample questions rotating every 10 seconds
+   - Your regulation document listed in the sidebar
+   - A chat interface ready to use
+
+3. Click on a sample question or type your own
+4. The AI will respond with answers and citations from your regulation document
+
+
+STEP 4: DEPLOY TO GITHUB PAGES (OPTIONAL)
+================================================================================================
+If you want to make this website publicly accessible:
+
+1. Push these files to your GitHub repository main branch
+2. Go to repository Settings → Pages
+3. Enable GitHub Pages from the main branch
+4. Your site will be live at: https://MAPASOST.github.io
+
+
+TROUBLESHOOTING
+================================================================================================
+
+Problem: "API Key Not Configured" error
+Solution: Make sure you added your API key to config.js (Step 1)
+
+Problem: AI says "I can only answer questions about uploaded documents"
+Solution: Make sure you pasted the FULL regulation text into documents.js (Step 2)
+
+Problem: Sample questions not rotating
+Solution: Check browser console for JavaScript errors
+
+Problem: Styling looks broken
+Solution: Make sure all files (index.html, styles.css, config.js, documents.js, app.js)
+         are in the same directory
+
+
+WHAT'S INCLUDED
+================================================================================================
+✓ index.html - Main website structure
+✓ styles.css - Professional, responsive design
+✓ config.js - API configuration (needs your API key)
+✓ documents.js - Regulation storage (needs full regulation text)
+✓ app.js - Complete chatbot functionality
+✓ README.md - Full documentation
+
+
+NEED HELP?
+================================================================================================
+- Check README.md for detailed documentation
+- Review the comments in each file
+- All code is well-documented and easy to modify
+
+
+================================================================================================

@@ -1,0 +1,10 @@
+# Node modules (if using npm for wrangler)
+node_modules/
+
+# Wrangler local dev files
+.dev.vars
+.wrangler/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>MA School Age Program Regulations Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Massachusetts School Age Program Regulations</h1>
+                    <p class="subtitle">AI-Powered Regulation Guidance</p>
+                </div>
+                <div class="header-logo">
+                    <img src="images/map-logo.png" alt="Massachusetts Afterschool Partnership Logo" class="map-logo">
+                </div>
+            </div>
+        </header>
+
+        <!-- Disclaimer -->
+        <div class="disclaimer">
+            <div class="disclaimer-title">⚠️ Important Disclaimer</div>
+            <div class="disclaimer-content">
+                <p><strong>This chatbot is an unofficial, independently developed tool by the Massachusetts Afterschool Partnership (MAP) and is not affiliated with, endorsed by, or connected to the Massachusetts Department of Early Education and Care (EEC) or any other state agency.</strong></p>
+
+                <p>The information provided by this chatbot is for general informational purposes only and should not be relied upon as legal, regulatory, or compliance advice. This tool is not a substitute for reading the actual EEC regulations, consulting official EEC resources, or seeking professional guidance.</p>
+
+                <p>While efforts have been made to provide accurate information, this chatbot may contain errors, omissions, or outdated content. Users should always verify information against official EEC regulations and guidance documents available at <a href="https://www.mass.gov/eec" target="_blank" rel="noopener noreferrer">mass.gov/eec</a>.</p>
+
+                <p><strong>By using this chatbot, you acknowledge that you do so at your own risk and that the developer assumes no liability for any decisions made based on information provided here.</strong></p>
+            </div>
+            <div class="disclaimer-button-container">
+                <a href="https://www.mass.gov/lists/eec-laws-and-regulations" target="_blank" rel="noopener noreferrer" class="official-regs-button">
+                    <span class="button-icon">📄</span>
+                    <span class="button-text">View Official EEC Laws & Regulations</span>
+                    <span class="button-arrow">→</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Donation Callout -->
+        <div class="donation-callout">
+            <div class="donation-content">
+                <h3>💙 Help Keep This Tool Free</h3>
+                <p>This AI chatbot uses API services that have costs associated with each question. Your donation helps us cover these expenses and keep this valuable resource available to the Massachusetts afterschool community.</p>
+                <a href="https://www.massafterschool.org/checkout/donate?donatePageId=659eb35dc09ff6158cd6caed" target="_blank" rel="noopener noreferrer" class="donate-button">
+                    <span class="button-icon">❤️</span>
+                    <span class="button-text">Support MAP with a Donation</span>
+                    <span class="button-arrow">→</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Sidebar: Sample Questions -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h2>Sample Questions</h2>
+                    <div id="sampleQuestions" class="sample-questions">
+                        <!-- Questions will be dynamically loaded -->
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h2>Available Documents</h2>
+                    <div id="documentList" class="document-list">
+                        <!-- Documents will be dynamically loaded -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Chat Area -->
+            <main class="chat-container">
+                <div id="chatMessages" class="chat-messages">
+                    <div class="welcome-message">
+                        <h2>Welcome!</h2>
+                        <p>Ask me anything about Massachusetts school age program regulations. I can help you understand specific requirements, compliance guidelines, and best practices.</p>
+                        <p class="info-note">💡 Try clicking on a sample question from the sidebar, or type your own question below.</p>
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <textarea
+                        id="userInput"
+                        placeholder="Ask a question about MA school age program regulations..."
+                        rows="3"
+                    ></textarea>
+                    <button id="sendButton" class="send-button">
+                        <span>Send</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </main>
+        </div>
+
+        <!-- About MAP Footer -->
+        <footer class="about-map">
+            <h3>About the Massachusetts Afterschool Partnership (MAP)</h3>
+            <p>The Massachusetts Afterschool Partnership (MAP) is a statewide public-private partnership dedicated to expanding and improving afterschool and summer learning opportunities for children and youth across the Commonwealth. MAP works to ensure that all young people have access to quality afterschool and summer programs that support their academic, social, and emotional development.</p>
+            <p>MAP provides training, technical assistance, and advocacy to support afterschool and summer learning programs. We work with program providers, policymakers, families, and communities to strengthen the afterschool field and increase public and private investment in these critical programs.</p>
+            <p>This AI-powered regulation chatbot is one of MAP's initiatives to support afterschool professionals in understanding and navigating Massachusetts school age program regulations.</p>
+            <div class="footer-links">
+                <a href="https://www.massafterschool.org" target="_blank" rel="noopener noreferrer">Visit MAP Website</a>
+                <span class="separator">|</span>
+                <a href="https://www.massafterschool.org/checkout/donate?donatePageId=659eb35dc09ff6158cd6caed" target="_blank" rel="noopener noreferrer">Donate</a>
+                <span class="separator">|</span>
+                <a href="https://www.mass.gov/lists/eec-laws-and-regulations" target="_blank" rel="noopener noreferrer">Official EEC Regulations</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="documents.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
